@@ -1,0 +1,47 @@
+.escritura {
+
+display: block;
+
+font-family: monospace;
+
+white-space: nowrap;
+
+border-right: 4px solid;
+
+width: 46ch;
+
+
+font-weight: 300;
+line-height: 1.5;
+color: #5b5b5b;
+
+
+
+animation: typing 2s steps(20), blink .4s infinite step-end alternate;
+
+overflow:hidden;
+
+}
+
+
+
+    @keyFrames typing {
+
+
+
+    from { width: 0}
+
+    }
+
+
+
+    @keyFrames blink {
+
+    50% { border-color: transparent}
+
+    }
+@media (min-width:300px) {
+    .escritura{
+       font-size: 13px;
+    }
+}
