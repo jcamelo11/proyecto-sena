@@ -91,7 +91,7 @@ mail($destinatario,$asunto,$cuerpo,$headers);
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="imagenes/undraw/ilustracion-correo.png" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/correo.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
             </div>

@@ -137,14 +137,14 @@ include "include.php"
             <div class="row">
 
             <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">¿Sabes la ruta que debes hacer en tu Etapa Productiva?</h2>
+                  <h2 class="mb-4">¿Sabes la ruta que debes hacer en tu <span class="text-success">Etapa Productiva</span>?</h2>
     
-                    <div class="timeline">
+                    <div class="timeline ">
                         <div class="timeline-wrapper">
                              <div class="timeline-yr">
                                   <span>1</span>
                              </div>
-                             <div class="timeline-info">
+                             <div class="timeline-info ">
                                   <h3><span>Inicio de Etapa Productiva</span><a  href="inicio-ep.php"><small></small></a></h3>
                                   <p>Al iniciar tu etapa productiva debes cumplir con algunos documentos esenciales para las afiliaciones y seguros, EPS, ARL, camara de comercio, etc.<a rel="nofollow" href="inicio-ep.php">click para saber cuales son</a> </p>
                              </div>
@@ -173,7 +173,7 @@ include "include.php"
                 </div>
 
                 <div class="col-lg-6 col-12 img-pos">
-                  <img src="imagenes/undraw/ruta.jpg" style="width: 250px;"alt="">
+                  <img src="imagenes/undraw/ask.svg" style="width: 550px;"alt="">
                 </div>
                 
             </div>
