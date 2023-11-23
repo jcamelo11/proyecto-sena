@@ -90,7 +90,7 @@ include "include.php"
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
-                            <a href="generador.php"><img href="generador.php" src="imagenes/project/project-image01.png" class="img-fluid" alt="project image"></a>
+                            <a href="generador.php"><img href="generador.php" src="imagenes/project/periodo.png" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
