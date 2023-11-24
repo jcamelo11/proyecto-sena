@@ -33,7 +33,7 @@ https://www.tooplate.com/view/2115-marvel
         fwrite($file, $contador+1 . PHP_EOL);
  
         $file = fopen($archivo, "r");
-      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($file). '</div>' ;
+      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
         fclose($file);
       ?>
 <?php
@@ -60,7 +60,7 @@ include "include.php"
                         <p>El deber ser del aprendíz en su ETAPA PRODUCTIVA es entregar los informes F023|F147 y requisitos de certificación para lograr recibir satisfactoriamente su certificado</p>
                         
                         <div class="custom-btn-group mt-4" >
-                          <a href="form-seguimiento.php" class="btn mr-lg-2 custom-btn" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
+                          <a href="form-seguimiento.php" class="btn mr-lg-2 custom-btn bg-success text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
                           <a href="req-certificacion.php" class="btn custom-btn custom-btn-bg custom-btn-link">Requisitos de certificación</a>
                         </div>
                     </div>
@@ -88,6 +88,19 @@ include "include.php"
                       </div>
 
                       <div class="owl-carousel owl-theme">
+                      
+                        <div class="item">
+                          <div class="project-info">
+                            <a href="form-seguimiento.php"><img src="imagenes/project/informes.png" class="img-fluid" alt="project image"></a>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <a href="descargas.php"><img src="imagenes/project/descargar.png" class="img-fluid" alt="project image"></a>
+                          </div>
+                        </div>
+
                         <div class="item">
                           <div class="project-info">
                             <a href="generador.php"><img href="generador.php" src="imagenes/project/periodo.png" class="img-fluid" alt="project image"></a>
@@ -96,32 +109,10 @@ include "include.php"
 
                         <div class="item">
                           <div class="project-info">
-                            <a href="form-seguimiento.php"><img src="imagenes/project/project-image02.png" class="img-fluid" alt="project image"></a>
+                            <a href="req-certificacion.php"><img src="imagenes/project/requisitos.png" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="generador.php"><img src="imagenes/project/project-image03.png" class="img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="periodos.php"><img src="imagenes/project/project-image04.png" class="img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="req-certificacion.php"><img src="imagenes/project/project-image05.png" class="img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="project-info">
-                            <a href="descargas.php"><img src="imagenes/project/project-image06.png" class="img-fluid" alt="project image"></a>
-                          </div>
-                        </div>
 
                       </div>
                       <a href="admin.php"><p class="mt-5 mb-3 text-center">Estadísticas</p></a>
@@ -136,12 +127,30 @@ include "include.php"
         <div class="container">
             <div class="row">
 
+            <style>
+              .timeline-sebas {
+                position: relative;
+                padding: 22px 0;
+              }
+              .timeline-sebas:last-child:before {
+                height: 0;
+              }
+              .timeline-sebas:before {
+                content: "";
+                background: #28a745;
+                width: 3px;
+                height: 100%;
+                position: absolute;
+                left: 38px;
+              }
+            </style>
+
             <div class="col-lg-6 col-12">
                   <h2 class="mb-4">¿Sabes la ruta que debes hacer en tu <span class="text-success">Etapa Productiva</span>?</h2>
     
                     <div class="timeline ">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
+                        <div class="timeline-sebas">
+                             <div class="timeline-yr bg-success">
                                   <span>1</span>
                              </div>
                              <div class="timeline-info ">
@@ -150,8 +159,8 @@ include "include.php"
                              </div>
                         </div>
 
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
+                        <div class="timeline-sebas ">
+                            <div class="timeline-yr bg-success">
                                 <span>2</span>
                             </div>
                             <div class="timeline-info">
@@ -161,7 +170,7 @@ include "include.php"
                         </div>
 
                         <div class="timeline-wrapper">
-                            <div class="timeline-yr">
+                            <div class="timeline-yr bg-success">
                                 <span>3</span>
                             </div>
                             <div class="timeline-info">
@@ -172,10 +181,12 @@ include "include.php"
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12 img-pos">
-                  <img src="imagenes/undraw/ask.svg" style="width: 550px;"alt="">
+                <div class="col-lg-5 col-md-12 mx-auto my-auto col-12">
+                    <div class="about-image  svg">
+                        <img src="imagenes/undraw/ask1.svg" class="img-fluid" alt="svg image">
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
