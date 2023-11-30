@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
     <link rel="stylesheet" href="https://unpkg.com/intro.js/introjs.css">
     <link rel="stylesheet" href="css/intro.css">
+       <!-- Favicon -->
+   <link href= "../assets/img/favicon.ico" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     
 <!--
 
@@ -55,7 +66,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid rgb(255, 0, 0);
+        border: 0px solid black;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -88,9 +99,10 @@ https://www.tooplate.com/view/2115-marvel
     
     <!-- CARD -->
     <section  class="mb-4 bg-gray-200" >
+
+      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()"><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
       
-    
-      <div class=" mt-7">
+      <div class="mt-5">
 
         <!-- hoja 1 -->
         <div class="card base">
@@ -117,7 +129,7 @@ https://www.tooplate.com/view/2115-marvel
         </div>
 
         <!-- hoja 3 -->
-        <div class=" base mt-2">
+        <div class="card base mt-2">
           <img src="imagenes/informes/EP-f023-01-3.png" alt="">
 
           <div id="intro12" class="pasos paso12" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
