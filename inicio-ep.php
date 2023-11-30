@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/logo.css">
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/intro.js/introjs.css">
+    <link rel="stylesheet" href="css/intro.css">
     
 <!--
 
@@ -40,6 +42,93 @@ https://www.tooplate.com/view/2115-marvel
    include "include.php"
    ?>
    <!-- MENU /-->
+
+   <style>
+
+      .base{
+        z-index: 3; 
+        position: relative; 
+        width: 900px;
+        margin: auto;
+      }
+
+      .pasos{
+        position: absolute; 
+        z-index: 9;
+        border: 2px solid rgb(255, 0, 0);
+      }
+
+      .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
+
+      .paso2{top: 307px; left: 89px; width: 725px; height: 119px;}
+      .paso3{top: 307px; left: 268px; width: 546px; height: 119px;}
+      .paso4{top: 374px; left: 268px; width: 546px; height: 52px;}
+
+      .paso5{top: 424px; left: 89px; width: 725px; height: 181px;}
+
+      .paso6{top: 643px; left: 89px; width: 725px; height: 403px;}
+      .paso7{top: 700px; left: 89px; width: 339px; height: 346px;}
+      .paso8{top: 700px; left: 426px; width: 211px; height: 346px;}
+      .paso9{top: 733px; left: 635px; width: 86px; height: 313px;}
+      .paso10{top: 733px; left: 719px; width: 95px; height: 313px;}
+
+      /* hoja2 */
+      .paso11{top: 456px; left: 87px; width: 728px; height: 89px;}
+
+
+      /* hoja 3 */
+      .paso12{top: 836px; left: 88px; width: 371px; height: 26px;}
+
+      /* paso13{ finalización } */
+
+      .paso14{top: 733px; left: 719px; width: 95px; height: 313px;}
+      
+
+    </style>
+    
+    <!-- CARD -->
+    <section  class="mb-4 bg-gray-200" >
+      
+    
+      <div class=" mt-7">
+
+        <!-- hoja 1 -->
+        <div class="card base">
+          <img src="imagenes/informes/EP-f023-01-1.png" alt="">
+
+          <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Escriba su regional, el centro de formación al que pertenece, nombre del programa que cursa y su numero de ficha"></div>
+          <div id="intro2" class="pasos paso2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro3" class="pasos paso3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>
+          <div id="intro4" class="pasos paso4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>
+          <div id="intro5" class="pasos paso5" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro6" class="pasos paso6" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro7" class="pasos paso7" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro8" class="pasos paso8" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro9" class="pasos paso9" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro10" class="pasos paso10" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+        </div>
+
+        <!-- hoja 2 -->
+        <div class="card base mt-2">
+          <img src="imagenes/informes/EP-f023-01-2.png" alt="">
+
+          <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          
+        </div>
+
+        <!-- hoja 3 -->
+        <div class=" base mt-2">
+          <img src="imagenes/informes/EP-f023-01-3.png" alt="">
+
+          <div id="intro12" class="pasos paso12" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+
+        </div>
+
+      </div>
+    
+    </section>
+
+
    
 
    <script src="js/jquery-3.3.1.min.js"></script>
@@ -51,6 +140,11 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
     <script  src="js/alerts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script>
+    <script  src="js/productivacbc.js"></script>
+    <script>
+      introJs().start();
+    </script>
     
 </body>
 </html>
