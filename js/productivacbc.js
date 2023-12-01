@@ -27,7 +27,7 @@ function intro_calcular() {
                  { element: document.getElementById('intro6'),
                  intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso5.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 6 },
                  { element: document.getElementById('intro7'),
-                 intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="../assets/mp3/example.mp3" type="audio/mpeg"></audio>presiona Next para avanzar', step: 7 },
+                 intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 7 },
                  { element: document.getElementById('intro8'),
                  intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="../assets/mp3/example.mp3" type="audio/mpeg"></audio>presiona Next para avanzar', step: 8 },
                  { element: document.getElementById('intro9'),
