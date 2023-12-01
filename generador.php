@@ -41,19 +41,33 @@
     <!-- MENU /-->
   <br><br><br>
 
-    <!-- form -->
-    <form class="form-signin" action="periodos.php" method="post">
-      <h2 class="text-center">Generar períodos de Informes</h2>
-        <img class="mb-4" src="imagenes/logo/logosena.png" alt="" width="100" height="100">
-            <span class="input-group-text" style="color: #3ba241;background-color: #34495e; ">Ingrese fecha Inicio de Etapa Productiva</span>
+
+  <div class="container">
+    <div class="row my-auto">
+      <div class="col-lg-5 mx-auto my-auto">
+        <form action="periodos.php" method="post">
+          <h2 class="text-center mt-2">Generar períodos de <span class="text-success">Informes</span></h2>
+
+            <span class="input-group-text" style="color: #fff;background-color: #34495e; ">Ingrese fecha Inicio de Etapa Productiva</span>
             <input type="date" id="inicio" name="inicio" class="form-control" required><br>
 
-            <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
+            <span class="input-group-text" style="color: #fff;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
             <input type="date" id="final" name="final" class="form-control" required ><br>
       
-            <input type="submit" class="btn btn-outline-success" value="Generar" > 
-            
-    </form>
+            <input type="submit" class="btn btn-outline-success mb-4" value="Generar" >  
+        </form>
+      </div>
+
+      <div class="col-lg-5 mx-auto my-auto">
+          <div class="about-image">
+              <img src="imagenes/undraw/home.svg" class="img-fluid" alt="svg image">
+          </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- form -->
+    
     
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>

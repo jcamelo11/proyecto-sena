@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/tooplate-style.css">
     <link rel="stylesheet" href="css/style-periodos.css">
     <link rel="stylesheet" href="css/logo.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 <?php
@@ -54,18 +54,19 @@
     include "include.php"
     ?>
     <!-- MENU /-->
-    <br><br><br><br><br>
+         
 
     <!-- TITULO -->
-    <div class="container">
+    <br><br><br><br><br>
+    <div class="container mt-4">
         <a href="generador.php"> <img src="imagenes/logosena.png" class="rounded mx-auto d-block" style="width: 130px" alt=""> </a>
     </div>
-    <br>
-    <h1 class="text-center">SENA Centro Biotecnológico del Caribe</h1>
-    <h4 class="text-center" style="color:rgb(59, 162, 65)">Seguimiento a Etapa Productiva</h4>
-    <br>
-    <h3 class="text-center">Generar períodos de Informes</h3>
-    <br>
+     
+    <h3 class="text-center">Centro Biotecnológico del Caribe | <span style="color:rgb(59, 162, 65)">Seguimiento a Etapa Productiva</span></h3>
+    
+     
+    <h3 class="text-center mt-5"><strong>Generar períodos de Informes</strong> </h3>
+     
     
     <!-- TITULO -->
 
@@ -74,100 +75,106 @@
         <div class="container">
         <div class="row justify-content-center">
             <div class="" style="width: auto;">      
-                <span class="input-group-text" style="color: #3ba241;background-color: #34495e;">Ingrese fecha Inicio de Etapa Productiva</span>
-                <input type="date" id="inicio" name="inicio" class="form-control" required><br>
+                <span class="input-group-text" style="color: #fff;background-color: #34495e;">Ingrese fecha Inicio de Etapa Productiva</span>
+                <input type="date" id="inicio" name="inicio" class="form-control" required> 
             </div>
-            <br>
+             
             <div class=""style="width: auto;">      
-                <span class="input-group-text" style="color: #3ba241;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
-                <input type="date" id="final" name="final" class="form-control" required ><br>
+                <span class="input-group-text" style="color: #fff;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
+                <input type="date" id="final" name="final" class="form-control" required > 
             </div>
         </div>
-        <div>
-            <input type="submit" class="btn btn-outline-success" value="Generar" >                                   
+        <div class="mt-3">
+            <input type="submit" class="btn btn-success" value="Generar" >                                   
         </div>
 
     </form>
     <!-- form -->
-    <br>
-    <br>
-    <br>
-        <!-- Fecha de informe concertacion-->
-        <div class="container" >
-        <div class="row " >
-            <div class="col" >
-                <h3>Período Informe concertación</h3> 
+    <div class="container mb-2">
+        <h3 class="mt-5 font-weight-bold pt-3" style="border-top:2px solid #eee;">Período de Informes</h3>
+        <div class="row">
+            <!-- Fecha de informe concertacion-->
+            <div class="col-auto m-auto">
+                <h3>Informe concertación</h3> 
                 <small>(F023-01)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx"> Descargar formato</a>
                 <table class="rwd-table2">
                     <thead>
                         <tr> 
-                            <th class="text-center">FECHA INICIAL</th>
-                            <th class="text-center">FECHA FINAL</th>  
+                            <th class="text-center text-white">FECHA INICIAL</th>
+                            <th class="text-center text-white">FECHA FINAL</th>  
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center">No tiene</td>
-                            <td class="text-center">No tiene</td>               
+                            <td class="text-center text-white">No tiene</td>
+                            <td class="text-center text-white">No tiene</td>               
                         </tr>
                     </tbody>
                 </table>
             </div>
-    <!-- Fecha de informe parcial -->
-    <div class="col">
-        <h3>Período informe parcial</h3>
-        <small>(F023-02)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
-        <table id="cesar2" class="rwd-table2" >
-            <thead>
-                <tr>
-                    <th class="text-center">FECHA INICIAL</th>
-                    <th class="text-center">FECHA FINAL</th>                       
-                </tr>
 
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-center"><?php echo $inicio ?></td>
-                    <td class="text-center"><?php echo $parcial ?></td>               
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <!-- Fecha de informe final -->
-    <div class="col" style="text-align: left !important;">
-        <h3>Período informe final</h3>
-        <small>(F023-03)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
-        <table id="cesar2" class="rwd-table2" >
-            <thead>
-                <tr>
-                    <th class="text-center">FECHA INICIAL</th>
-                    <th class="text-center">FECHA FINAL</th>                       
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-center"><?php echo $inicio?></td>
-                    <td class="text-center"><?php echo $final ?></td>             
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <!-- Fecha de informe final -->
-    <!-- bitacoras -->
-    <div class="container ">
-        <div class="row " style="text-align: left !important;">
-            <div class="col">
-                <h3 class="text-left">Período de bitácoras</h3>
-                <small>(F147)</small> 
-                <br>                <br>
-                <a href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" > Descargar formato</a>
-                <br>
-                <table id="cesar" class="rwd-table" >
+            <!-- Fecha de informe parcial -->
+            <div class="col-auto m-auto">
+                <h3>Informe parcial</h3>
+                <small>(F023-02)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
+                <table id="cesar2" class="rwd-table2" >
                     <thead>
                         <tr>
-                            <th class="text-center">BITÁCORA</th>
-                            <th class="text-center">FECHA INICIAL</th>
-                            <th class="text-center">FECHA FINAL</th>                          
+                            <th class="text-center text-white">FECHA INICIAL</th>
+                            <th class="text-center text-white">FECHA FINAL</th>                       
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center text-white"><?php echo $inicio ?></td>
+                            <td class="text-center text-white"><?php echo $parcial ?></td>               
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Fecha de informe final -->
+            <div class="col-auto m-auto">
+                <h3>Informe final</h3>
+                <small>(F023-03)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
+                <table id="cesar2" class="rwd-table2" >
+                    <thead>
+                        <tr>
+                            <th class="text-center text-white">FECHA INICIAL</th>
+                            <th class="text-center text-white">FECHA FINAL</th>                       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center"><?php echo $inicio?></td>
+                            <td class="text-center"><?php echo $final ?></td>             
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+        
+    <!-- Fecha de informe final -->
+    <!-- bitacoras -->
+    <div class="container " style="border-top:2px solid #eee;">
+        <div class="row mt-3" style="text-align: left !important;" >
+            <div class="col" >
+                <h3 class="text-start font-weight-bold">Período de bitácoras (F147)</h3>
+
+                <a class="btn btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" >
+                    <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
+                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>    
+                </a>
+                 
+                <table id="cesar" class="rwd-table" >
+                    <thead class="">
+                        <tr>
+                            <th class="text-center text-white">BITÁCORA</th>
+                            <th class="text-center text-white">FECHA INICIAL</th>
+                            <th class="text-center text-white">FECHA FINAL</th>                          
                         </tr>
                     </thead>
                     <tbody>
@@ -194,21 +201,23 @@
                             </tr>
                             <?php } ?>    
                         </tbody>
-                    <tfoot>
+                    <tfoot >
                             <tr>
-                                <th class="text-center">BITÁCORA</th>
-                                <th class="text-center">FECHA INICIAL</th>
-                                <th class="text-center">FECHA FINAL</th> 
+                                <th class="text-center text-white">BITÁCORA</th>
+                                <th class="text-center text-white">FECHA INICIAL</th>
+                                <th class="text-center text-white">FECHA FINAL</th> 
                             </tr>
                     </tfoot>
                 </table>
-                <a href="fechaentrega.php"><h6>Generar fecha de entrega de los informes</h6></a>
+
+                Fecha de entrega de los informes
+                <a class="btn btn-success text-white mt-1" href="fechaentrega.php">Generar</a>
             </div>
-            <br>
+             
             <!-- sugerencias -->
             <div class="col">
                 <table id="cesar2" class="rwd-table3" >
-                    <br><br><br><br><br>
+                         
                     <thead>
                         <tr>
                             <th class="text-center" style="font-size:19px">⚠️ DUDAS FRECUENTES ⚠️</th>                      
@@ -226,15 +235,17 @@
                             </tr>
                     </tbody>
                 </table>
-                <br><br>
-                <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/cartillas/como-diligenciar-informes.png" class="sombra" alt="Editado por heyder canchila" style="width: 475px;" ></a> <br>
-                <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/cartillas/req-certificacion.png" class="sombra" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                  <div class="mt-5 pt-3">
+                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-n5" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                  </div>
+                
             </div>
             <!-- sugerencias-->
         </div>
     </div>
 
-    <p class="mt-5 mb-3 text-muted">&copy; Version 1.5</p>
+    <p class="mt-5 mb-3 text-muted">&copy; Versión 2.0</p> 
     <!-- script -->
     <script type="application/javascript">
         $(document).ready( function () {

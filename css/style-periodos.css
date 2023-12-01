@@ -246,5 +246,8 @@ h3 {
   margin: -9px;
 }
 
-.sombra:hover {filter: blur(5px);}
+.sombra:hover {
+  border: 2px solid green;
+  box-shadow: 5px 5px 0px 0px;
+}
 
