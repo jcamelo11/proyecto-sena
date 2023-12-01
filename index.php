@@ -60,7 +60,7 @@ include "include.php"
                         <p>El deber ser del aprendíz en su ETAPA PRODUCTIVA es entregar los informes F023|F147 y requisitos de certificación para lograr recibir satisfactoriamente su certificado</p>
                         
                         <div class="custom-btn-group mt-4" >
-                          <a href="form-seguimiento.php" class="btn mr-lg-2 custom-btn bg-success text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
+                          <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
                           <a href="req-certificacion.php" class="btn custom-btn custom-btn-bg custom-btn-link">Requisitos de certificación</a>
                         </div>
                     </div>

@@ -26,7 +26,7 @@
         fwrite($file, $contador+1 . PHP_EOL);
  
         $file = fopen($archivo, "r");
-      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($file). '</div>' ;
+      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
         fclose($file);
       ?>
 <?php
@@ -65,7 +65,7 @@
     <h3 class="text-center">Centro Biotecnológico del Caribe | <span style="color:rgb(59, 162, 65)">Seguimiento a Etapa Productiva</span></h3>
     
      
-    <h3 class="text-center mt-5"><strong>Generar períodos de Informes</strong> </h3>
+    <h3 class="text-center mt-4 mb-3"><strong>Generar períodos de Informes</strong> </h3>
      
     
     <!-- TITULO -->
@@ -74,17 +74,17 @@
     <form class="text-center" action="periodos.php" method="post">
         <div class="container">
         <div class="row justify-content-center">
-            <div class="" style="width: auto;">      
+            <div class="col-auto mb-3">      
                 <span class="input-group-text" style="color: #fff;background-color: #34495e;">Ingrese fecha Inicio de Etapa Productiva</span>
                 <input type="date" id="inicio" name="inicio" class="form-control" required> 
             </div>
              
-            <div class=""style="width: auto;">      
+            <div class="col-auto mb-3">      
                 <span class="input-group-text" style="color: #fff;background-color: #34495e;" >Ingrese fecha final de Etapa Productiva</span>
                 <input type="date" id="final" name="final" class="form-control" required > 
             </div>
         </div>
-        <div class="mt-3">
+        <div >
             <input type="submit" class="btn btn-success" value="Generar" >                                   
         </div>
 
@@ -96,17 +96,22 @@
             <!-- Fecha de informe concertacion-->
             <div class="col-auto m-auto">
                 <h3>Informe concertación</h3> 
-                <small>(F023-01)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx"> Descargar formato</a>
+                <h3 class="float-left mt-2" style="font-size:18px;">(F023-01)</h3> 
+                <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx">
+                    <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
+                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>  
+                </a>
+
                 <table class="rwd-table2">
                     <thead>
-                        <tr> 
-                            <th class="text-center text-white">FECHA INICIAL</th>
+                        <tr class=""> 
+                            <th class="text-center text-white border-right border-white">FECHA INICIAL</th>
                             <th class="text-center text-white">FECHA FINAL</th>  
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center text-white">No tiene</td>
+                            <td class="text-center text-white border-right border-white">No tiene</td>
                             <td class="text-center text-white">No tiene</td>               
                         </tr>
                     </tbody>
@@ -116,18 +121,22 @@
             <!-- Fecha de informe parcial -->
             <div class="col-auto m-auto">
                 <h3>Informe parcial</h3>
-                <small>(F023-02)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
+                <h3 class="float-left mt-2" style="font-size:18px;">(F023-02)</h3> 
+                    <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
+                        <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
+                        </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>
+                    </a>
                 <table id="cesar2" class="rwd-table2" >
                     <thead>
-                        <tr>
-                            <th class="text-center text-white">FECHA INICIAL</th>
+                        <tr class="">
+                            <th class="text-center text-white border-right border-white">FECHA INICIAL</th>
                             <th class="text-center text-white">FECHA FINAL</th>                       
                         </tr>
 
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center text-white"><?php echo $inicio ?></td>
+                            <td class="text-center text-white border-right border-white"><?php echo $inicio ?></td>
                             <td class="text-center text-white"><?php echo $parcial ?></td>               
                         </tr>
                     </tbody>
@@ -137,17 +146,21 @@
             <!-- Fecha de informe final -->
             <div class="col-auto m-auto">
                 <h3>Informe final</h3>
-                <small>(F023-03)</small> <a href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar formato</a>
+                <h3 class="float-left mt-2" style="font-size:18px;">(F023-03)</h3>
+                    <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
+                        <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
+                        </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>
+                    </a>
                 <table id="cesar2" class="rwd-table2" >
                     <thead>
-                        <tr>
-                            <th class="text-center text-white">FECHA INICIAL</th>
+                        <tr class="">
+                            <th class="text-center text-white border-right border-white">FECHA INICIAL</th>
                             <th class="text-center text-white">FECHA FINAL</th>                       
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center"><?php echo $inicio?></td>
+                            <td class="text-center border-right border-white"><?php echo $inicio?></td>
                             <td class="text-center"><?php echo $final ?></td>             
                         </tr>
                     </tbody>
@@ -159,17 +172,18 @@
         
     <!-- Fecha de informe final -->
     <!-- bitacoras -->
-    <div class="container " style="border-top:2px solid #eee;">
-        <div class="row mt-3" style="text-align: left !important;" >
-            <div class="col" >
+    <div class="container" style="border-top:2px solid #eee;">
+        <div class="row mt-3">
+
+            <div class="col-md-6 mx-auto pb-4">
                 <h3 class="text-start font-weight-bold">Período de bitácoras (F147)</h3>
 
-                <a class="btn btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" >
+                <a class="btn btn-sm btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" >
                     <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
                     </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>    
                 </a>
                  
-                <table id="cesar" class="rwd-table" >
+                <table id="cesar" class="rwd-table mx-auto" >
                     <thead class="">
                         <tr>
                             <th class="text-center text-white">BITÁCORA</th>
@@ -210,35 +224,62 @@
                     </tfoot>
                 </table>
 
-                Fecha de entrega de los informes
+                <h5>Fecha de entrega de los informes</h5> 
                 <a class="btn btn-success text-white mt-1" href="fechaentrega.php">Generar</a>
             </div>
              
+            <style>
+                /* Estilos adicionales para mejorar la apariencia */
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                th,
+                td {
+                    border-bottom: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+            </style>
             <!-- sugerencias -->
-            <div class="col">
-                <table id="cesar2" class="rwd-table3" >
+            <div class="col-md-6 pb-4 mx-auto">
+            <h3 class="text-start font-weight-bold">Guías interactivas</h3>
+                <div class="mx-auto">
+                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-1" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                </div>
+                <table class="mx-auto border border-gray mt-5">
                          
                     <thead>
-                        <tr>
-                            <th class="text-center" style="font-size:19px">⚠️ DUDAS FRECUENTES ⚠️</th>                      
-                        </tr>
+                        <td class="bg-success">
+                            <h3 class="font-weight-bold text-center text-white">¡ Dudas Frecuentes !</h3>             
+                        </td>
                     </thead>
                     <tbody>
-                            <tr>
-                            <td class="text-center"><a class="text-light" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.nyaqketnv8w3" Target="_blank">¿Dónde debo ubicar los períodos generados?</a></td>             
-                            </tr>
-                            <tr>
-                            <td class="text-center"><a class="text-light" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.4lb4ori4n86v" Target="_blank">¿Que versión de las bitacoras debo descargar?</a></td>
-                            </tr>
-                            <tr>
-                            <td class="text-center"><a class="text-light"href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.pa4m68ud1x46" Target="_blank">¿Que nomenclatura debo usar para la entrega de las bitacoras?</a></td>
-                            </tr>
+                        <tr>
+                        <td class="">
+                            <a class="text-white text-center" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.nyaqketnv8w3" Target="_blank">
+                                <h3 class="mb-n2" style="font-size:18px;">¿Dónde debo ubicar los períodos generados?</h3>
+                            </a>
+                        </td>             
+                        </tr>
+                        <tr>
+                        <td class="">
+                            <a class="text-white text-center" href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.4lb4ori4n86v" Target="_blank">
+                                <h3 class="mb-n2" style="font-size:18px;">¿Que versión de las bitacoras debo descargar?</h3> 
+                            </a>
+                    </td>
+                        </tr>
+                        <tr>
+                        <td class="">
+                            <a class="text-white text-center"href="https://docs.google.com/document/d/1d9DskhOHYdXe1tOryXsDJ7FnZlFDm10h14wL3hjb7KU/edit#heading=h.pa4m68ud1x46" Target="_blank">
+                                <h3 class="mb-n2" style="font-size:18px;">¿Que nomenclatura debo usar para la entrega de las bitácoras?</h3> 
+                            </a>
+                        </td>
+                        </tr>
                     </tbody>
                 </table>
-                  <div class="mt-5 pt-3">
-                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-n5" alt="Editado por heyder canchila" style="width: 475px;" ></a>
-                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
-                  </div>
                 
             </div>
             <!-- sugerencias-->
