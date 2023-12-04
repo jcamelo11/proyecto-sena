@@ -111,8 +111,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center text-white border-right border-white">No tiene</td>
-                            <td class="text-center text-white">No tiene</td>               
+                            <td class="text-center bg-white text-dark font-weight-bold border-right">No tiene</td>
+                            <td class="text-center bg-white text-dark font-weight-bold">No tiene</td>               
                         </tr>
                     </tbody>
                 </table>
@@ -136,8 +136,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center text-white border-right border-white"><?php echo $inicio ?></td>
-                            <td class="text-center text-white"><?php echo $parcial ?></td>               
+                            <td class="text-center bg-white text-dark font-weight-bold border-right"><?php echo $inicio ?></td>
+                            <td class="text-center bg-white text-dark font-weight-bold"><?php echo $parcial ?></td>               
                         </tr>
                     </tbody>
                 </table>
@@ -160,8 +160,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="text-center border-right border-white"><?php echo $inicio?></td>
-                            <td class="text-center"><?php echo $final ?></td>             
+                            <td class="text-center bg-white text-dark border-right font-weight-bold"><?php echo $inicio?></td>
+                            <td class="text-center bg-white text-dark font-weight-bold"><?php echo $final ?></td>             
                         </tr>
                     </tbody>
                 </table>
