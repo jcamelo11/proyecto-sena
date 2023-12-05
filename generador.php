@@ -30,7 +30,7 @@
         fwrite($file, $contador+1 . PHP_EOL);
  
         $file = fopen($archivo, "r");
-      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($file). '</div>' ;
+      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
         fclose($file);
       ?>
 
@@ -43,7 +43,13 @@
 
 
   <div class="container">
-    <div class="row my-auto">
+  <br> <br> <br>
+    <div class="row mx-auto">
+    <div class="col-lg-5 mx-auto my-auto">
+          <div class="about-image">
+              <img src="imagenes/undraw/periodo.svg" class="img-fluid" alt="svg image">
+          </div>
+      </div>
       <div class="col-lg-5 mx-auto my-auto">
         <form action="periodos.php" method="post">
           <h2 class="text-center mt-2">Generar períodos de <span class="text-success">Informes</span></h2>
@@ -58,13 +64,11 @@
         </form>
       </div>
 
-      <div class="col-lg-5 mx-auto my-auto">
-          <div class="about-image">
-              <img src="imagenes/undraw/home.svg" class="img-fluid" alt="svg image">
-          </div>
-      </div>
+      
     </div>
   </div>
+
+  <p class="mt-5 mb-3 text-muted">&copy; Versión 2.0</p> 
   
     <!-- form -->
     

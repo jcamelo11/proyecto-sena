@@ -23,7 +23,7 @@
                   <a href="generador.php" class="nav-link"><span data-hover="Generador">Generador</span></a>
               </li>
               <li class="nav-item">
-                  <a href="form-seguimiento.php" class="nav-link"><span data-hover="Formatos de Seguimiento"style="width: 110px;">Formatos de Seguimiento</span></a>
+                  <a href="menu-formatos.php" class="nav-link"><span data-hover="Formatos de Seguimiento"style="width: 110px;">Formatos de Seguimiento</span></a>
               </li>
               <li class="nav-item">
                   <a href="req-certificacion.php" class="nav-link"><span data-hover="Requisitos de certificación"style="width: 110px;">Requisitos de certificación</span></a>

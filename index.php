@@ -254,15 +254,17 @@ include "include.php"
 
         </div>
       </div>
+      
     </section>
+
+    <p class="mt-5 mb-3 text-center text-muted">&copy; Versión 2.0</p> 
     
     <!-- FOOTER -->
      <footer class="footer py-5">
           <div class="container">
                <div class="row">
 
-
-                    
+               
                </div>
           </div>
      </footer>

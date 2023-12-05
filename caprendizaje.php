@@ -24,7 +24,7 @@
         fwrite($file, $contador+1 . PHP_EOL);
  
         $file = fopen($archivo, "r");
-      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">'. fgets($file). '</div>' ;
+      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
         fclose($file);
       ?>
     <!-- MENU -->

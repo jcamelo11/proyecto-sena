@@ -19,6 +19,18 @@
   </head>
   <body>
 
+  <?php
+    $archivo = "contador/Formatos.php";
+          $contador = intval(trim(file_get_contents($archivo)));
+  
+          $file = fopen($archivo, "w");
+          fwrite($file, $contador+1 . PHP_EOL);
+  
+          $file = fopen($archivo, "r");
+        echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
+          fclose($file);
+  ?>
+
 <?php
 include "include.php"
 ?>
@@ -40,43 +52,99 @@ include "include.php"
     box-shadow: 5px 5px 0px 0px;
   }
 </style>
-  <div class="mx-5 mt-5">
-  <h3 class="text-center text-">¿Cual de estos documentos necesitas aprender a formular?</h3>
-    <div class="row mt-4">
-
-      <div class="col-lg-4">
-        <h5 class="text-center mt-2 text-success">Informe de Concertación</h5>
-        <a href="inicio-ep.php">
-          <div class="bg-full border border border-gray" style="background-image: url('imagenes/project/concertacion.png');">
+  <div class="container">
+    <h3 class="text-center mt-5 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h3>
+      <div class="row mt-3">
+        <div class="col-lg-3 mt-3 col-md-6">
+            <div class="card mt-5 mt-md-0">
+                <div class="card-header p-0  position-relative z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="imagenes/project/concertacion.png" alt="img-blur-shadow"
+                            class="img-fluid border-radius-lg" loading="lazy">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;imagenes/project/concertacion.png&quot;);"></div>
+                </div>
+                <div class="card-body pt-3">
+                    
+                    <h5 class="text-success">Informe concertación</h5>
+                    <p>
+                        Aprende a diligenciar los formatos F023
+                    </p>
+                    <a href="f023-01.php">
+                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                    </a>
+                    
+                </div>
+            </div>
         </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4">
-        <h5 class="text-center mt-2 text-success">Informe Parcial</h5>
-        <a href="">
-          <div class="bg-full border border-gray" style="background-image: url('imagenes/project/parcial.png');">
+        <div class="col-lg-3 mt-3 col-md-6">
+            <div class="card mt-5 mt-md-0">
+                <div class="card-header p-0  position-relative z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="imagenes/project/parcial.png" alt="img-blur-shadow"
+                            class="img-fluid border-radius-lg" loading="lazy">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;imagenes/project/concertacion.png&quot;);"></div>
+                </div>
+                <div class="card-body pt-3">
+                    
+                    <h5 class="text-success">Informe parcial</h5>
+                    <p>
+                        Aprende a diligenciar los formatos F023
+                    </p>
+                    <a href="f023-02.php">
+                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                    </a>
+                </div>
+            </div>
         </div>
-        </a>
-      </div>
-
-      <div class="col-lg-4">
-        <h5 class="text-center mt-2 text-success">Informe Final</h5>
-        <a href="">
-          <div class="bg-full border border-gray" style="background-image: url('imagenes/informes/EP-f023-01-3.png');">
+        <div class="col-lg-3 mt-3 col-md-6">
+            <div class="card mt-5 mt-md-0">
+                <div class="card-header p-0  position-relative z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="imagenes/project/final.png" alt="img-blur-shadow"
+                            class="img-fluid border-radius-lg" loading="lazy">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;imagenes/project/final.png&quot;);"></div>
+                </div>
+                <div class="card-body pt-3">
+                    
+                    <h5 class="text-success">Informe final</h5>
+                    <p>
+                        Aprende a diligenciar los formatos F023
+                    </p>
+                    <a href="f023-03.php">
+                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                    </a>
+                </div>
+            </div>
         </div>
-        </a>
-      </div>
-
-      <div class="col-lg-6">
-        <h5 class="text-center mt-2 text-success">bitácoras</h5>
-        <a href="">
-          <div class="bg-full border border-gray" style="background-image: url('imagenes/project/parcial.png');">
+        <div class="col-lg-3 mt-3 col-md-6">
+            <div class="card mt-5 mt-md-0">
+                <div class="card-header p-0  position-relative z-index-2">
+                    <a class="d-block blur-shadow-image">
+                        <img src="imagenes/project/bitacoras.png" alt="img-blur-shadow"
+                            class="img-fluid border-radius-lg" loading="lazy">
+                    </a>
+                    <div class="colored-shadow"
+                        style="background-image: url(&quot;imagenes/project/bitacoras.png&quot;);"></div>
+                </div>
+                <div class="card-body pt-3">
+                    
+                    <h5 class="text-success">Bitácoras</h5>
+                    <p>
+                        Aprende a diligenciar los formatos F023
+                    </p>
+                    <a href="bitacora.php">
+                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                    </a>
+                </div>
+            </div>
         </div>
-        </a>
       </div>
-
-    </div>
   </div>
     
     <!-- FOOTER -->
