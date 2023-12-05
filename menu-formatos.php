@@ -44,23 +44,23 @@ include "include.php"
   <h3 class="text-center text-">¿Cual de estos documentos necesitas aprender a formular?</h3>
     <div class="row mt-4">
 
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <h5 class="text-center mt-2 text-success">Informe de Concertación</h5>
         <a href="inicio-ep.php">
-          <div class="bg-full border border border-gray" style="background-image: url('imagenes/informes/EP-f023-01-1.png');">
+          <div class="bg-full border border border-gray" style="background-image: url('imagenes/project/concertacion.png');">
         </div>
         </a>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <h5 class="text-center mt-2 text-success">Informe Parcial</h5>
         <a href="">
-          <div class="bg-full border border-gray" style="background-image: url('imagenes/informes/EP-f023-01-2.png');">
+          <div class="bg-full border border-gray" style="background-image: url('imagenes/project/parcial.png');">
         </div>
         </a>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <h5 class="text-center mt-2 text-success">Informe Final</h5>
         <a href="">
           <div class="bg-full border border-gray" style="background-image: url('imagenes/informes/EP-f023-01-3.png');">
@@ -68,10 +68,10 @@ include "include.php"
         </a>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-6">
         <h5 class="text-center mt-2 text-success">bitácoras</h5>
         <a href="">
-          <div class="bg-full border border-gray" style="background-image: url('imagenes/informes/bitacora.png');">
+          <div class="bg-full border border-gray" style="background-image: url('imagenes/project/parcial.png');">
         </div>
         </a>
       </div>

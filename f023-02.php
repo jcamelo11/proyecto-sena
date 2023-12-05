@@ -66,7 +66,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 0px solid black;
+        border: 2px solid black;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -92,7 +92,7 @@ https://www.tooplate.com/view/2115-marvel
 
       /* paso13{ finalización } */
 
-      .paso14{top: 733px; left: 719px; width: 95px; height: 313px;}
+      .paso14{top: 743px; left: 719px; width: 95px; height: 313px;}
       
 
     </style>
