@@ -18,31 +18,31 @@
     
   </head>
   <body>
-
+<!-- 
   <?php
-    $archivo_contador = 'contador/contador.txt';
+    // $archivo_contador = 'contador/contador.txt';
 
     // Intenta leer el archivo
-    if (file_exists($archivo_contador)) {
-        $contador = (int)file_get_contents($archivo_contador);
+    // if (file_exists($archivo_contador)) {
+        // $contador = (int)file_get_contents($archivo_contador);
     
         // Manejo de errores al leer el archivo
-        if ($contador === false) {
-            die('Error al leer el archivo de contador.');
-        }
+        // if ($contador === false) {
+        //     die('Error al leer el archivo de contador.');
+        // }
     
-        $contador++;
-    } else {
-        $contador = 1;
-    }
+    //     $contador++;
+    // } else {
+    //     $contador = 1;
+    // }
     
     // Intenta escribir en el archivo
-    if (file_put_contents($archivo_contador, $contador) === false) {
-        die('Error al escribir en el archivo de contador.');
-    }
+    // if (file_put_contents($archivo_contador, $contador) === false) {
+    //     die('Error al escribir en el archivo de contador.');
+    // }
     
-    echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">' . $contador . '</div>';    
-    ?>
+    // echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">' . $contador . '</div>';    
+    // ?> -->
 
 <?php
 include "include.php"
