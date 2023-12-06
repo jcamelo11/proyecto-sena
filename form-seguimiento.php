@@ -16,24 +16,31 @@
 
 </head>
 <body>
+    <?php
+    $archivo_contador = 'contador/contador.txt';
 
- <?php
- $archivo = __DIR__ . "/contador/formatos.php";
- $contador = intval(trim(file_get_contents($archivo)));
- 
- $file = fopen($archivo, "w");
- if ($file !== false) {
-     fwrite($file, $contador + 1 . PHP_EOL);
-     fclose($file);
- } else {
-     die("No se pudo abrir el archivo para escritura.");
- }
- 
- $file = fopen($archivo, "r");
- echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">' . fgets($file) . '</div>';
- fclose($file);
- ?>
- 
+    // Intenta leer el archivo
+    if (file_exists($archivo_contador)) {
+        $contador = (int)file_get_contents($archivo_contador);
+    
+        // Manejo de errores al leer el archivo
+        if ($contador === false) {
+            die('Error al leer el archivo de contador.');
+        }
+    
+        $contador++;
+    } else {
+        $contador = 1;
+    }
+    
+    // Intenta escribir en el archivo
+    if (file_put_contents($archivo_contador, $contador) === false) {
+        die('Error al escribir en el archivo de contador.');
+    }
+    
+    echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #ff5a19;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;">' . $contador . '</div>';    
+    ?>
+
       
     <!-- MENU -->
     <?php
