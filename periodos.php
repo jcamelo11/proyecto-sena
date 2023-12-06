@@ -18,17 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-<?php
-  $archivo = "contador/generador.php";
-        $contador = intval(trim(file_get_contents($archivo)));
- 
-        $file = fopen($archivo, "w");
-        fwrite($file, $contador+1 . PHP_EOL);
- 
-        $file = fopen($archivo, "r");
-      echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">'. fgets($file). '</div>' ;
-        fclose($file);
-      ?>
+
 <?php
     error_reporting(0);
     ?>
