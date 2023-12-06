@@ -108,7 +108,7 @@ https://www.tooplate.com/view/2115-marvel
         <div class="card base">
           <img src="imagenes/informes/EP-f023-01-1.png" alt="">
 
-          <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Escriba su regional, el centro de formación al que pertenece, nombre del programa que cursa y su numero de ficha"></div>
+          <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="id1"></div>
           <div id="intro2" class="pasos paso2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro3" class="pasos paso3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>
           <div id="intro4" class="pasos paso4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>

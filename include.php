@@ -17,16 +17,16 @@
                   <a href="index.php" class="nav-link"><span data-hover="Inicio">Inicio</span></a>
               </li>
               <li class="nav-item">
-                  <a href="caprendizaje.php" class="nav-link"><span data-hover="Caprendizaje">Caprendizaje</span></a>
+                  <a href="menu-formatos.php" class="nav-link"><span data-hover="Formatos de Seguimiento"style="width: 110px;">Formatos de Seguimiento</span></a>
               </li>
               <li class="nav-item">
                   <a href="generador.php" class="nav-link"><span data-hover="Generador">Generador</span></a>
               </li>
               <li class="nav-item">
-                  <a href="menu-formatos.php" class="nav-link"><span data-hover="Formatos de Seguimiento"style="width: 110px;">Formatos de Seguimiento</span></a>
+                  <a href="req-certificacion.php" class="nav-link"><span data-hover="Requisitos de certificación"style="width: 110px;">Requisitos de certificación</span></a>
               </li>
               <li class="nav-item">
-                  <a href="req-certificacion.php" class="nav-link"><span data-hover="Requisitos de certificación"style="width: 110px;">Requisitos de certificación</span></a>
+                  <a href="caprendizaje.php" class="nav-link"><span data-hover="Caprendizaje">Caprendizaje</span></a>
               </li>
               <li class="nav-item">
                 <a href="Egresado.php" class="nav-link"><span data-hover="Egresados" style="width: 110px;">Egresado</span></a>

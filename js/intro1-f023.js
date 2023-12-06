@@ -20,39 +20,31 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: 'Este es el formulario que debes diligenciar con las características de tus suelos<audio autoplay class="w-100 mt-3" controls><source src="audios/paso1.m4a" type="audio/mpeg"></audio>presiona siguiente para ver más detalles', step: 1
+                intro: 'Aqui debes de escribir la regional, el centro, programa y ficha de formación <audio autoplay class="w-100 mt-3" controls><source src="audios/paso1.m4a" type="audio/mpeg"></audio>presiona siguiente para ver más detalles', step: 1
             },
             {
                 element: document.getElementById('intro2'),
-                intro: 'En el formulario nos encontramos con las diferentes características del suelo<audio autoplay class="w-100 mt-3" controls><source src="audios/paso2.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar', step: 2
+                intro: 'En este espacio van tus datos personales<audio autoplay class="w-100 mt-3" controls><source src="audios/paso2.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar', step: 2
             },
             {
                 element: document.getElementById('intro4'),
-                intro: 'Luego de llenar todos los campos presiona "CALCULAR PROCESO" para que el sistema verifique la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso3.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 4
+                intro: 'Aquí va la alternativa registrada en Sofia Plus <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso3.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 4
             },
             {
                 element: document.getElementById('intro5'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso4.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 5
+                intro: 'En esta sección va los datos de la empresa donde estas realizado tu etapa productiva <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso4.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 5
             },
             {
                 element: document.getElementById('intro6'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso5.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 6
+                intro: 'Aquí van las actividades que vas a realizar en tu etapa productiva<br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso5.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 6
             },
             {
                 element: document.getElementById('intro7'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 7
+                intro: 'Aquí van las actividades que vas a realizar en tu etapa productiva<br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 7
             },
             {
                 element: document.getElementById('intro8'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso7.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 8
-            },
-            {
-                element: document.getElementById('intro9'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso8.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 9
-            },
-            {
-                element: document.getElementById('intro10'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso9.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 10
+                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digi <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso9.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 10
             },
             {
                 element: document.getElementById('intro11'),

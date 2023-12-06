@@ -99,7 +99,9 @@ https://www.tooplate.com/view/2115-marvel
 
       /* hoja 3 */
       .paso18{top: 445px; left: 87px; width:724px; height: 143px;}
-      .paso19{top: 859px; left: 88px; width: 371px; height: 26px;}
+      .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
+      .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
+
       
 
       /* paso13{ finalización } */
@@ -162,6 +164,8 @@ https://www.tooplate.com/view/2115-marvel
           <div id="intro18" class="pasos paso18" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
           <div id="intro19" class="pasos paso19" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+
+          <div id="intro20" class="pasos paso20" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
         </div>
 

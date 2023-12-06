@@ -91,7 +91,7 @@ include "include.php"
                       
                         <div class="item">
                           <div class="project-info">
-                            <a href="form-seguimiento.php"><img src="imagenes/project/informes.png" class="img-fluid" alt="project image"></a>
+                            <a href="menu-formatos.php"><img src="imagenes/project/informes.png" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
