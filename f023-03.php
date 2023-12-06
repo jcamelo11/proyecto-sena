@@ -140,7 +140,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 2 -->
         <div class="card base mt-2">
-          <img src="imagenes/informes/F023-02-2.jpg" alt="">
+          <img src="imagenes/informes/F023-03.jpg" alt="">
 
           <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
@@ -186,7 +186,7 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/custom.js"></script>
     <script  src="js/alerts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script>
-    <script  src="js/intro2-f023.js"></script>
+    <script  src="js/intro3-f023.js"></script>
     <script>
       introJs().start();
     </script>

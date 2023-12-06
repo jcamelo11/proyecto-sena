@@ -24,7 +24,7 @@ include "include.php"
 	<article class="plan [ card ] information [ card ]">
 		<a class="tag" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar</a>
 		<div class="inner">
-			<img src="imagenes/informes/023.png" alt="">
+			<img src="imagenes/project/concertacion.png" alt="">
 			<h2 class="title">Formato 023 Concertación</h2>
 			<p class="info">Descarga el formato limpio para diligenciar, recuerda no modificarlo para no tener inconvenientes.</p>
 			<ul class="features">
@@ -35,7 +35,7 @@ include "include.php"
 							<path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="currentColor" />
 						</svg>
 					</span>
-					<span><strong>Descarga</strong></span>
+					<span><strong>Descargar</strong></span>
 				</li>
 				<li>
 					<span class="icon">
@@ -70,7 +70,7 @@ include "include.php"
 	<article class="plan [ card ] information [ card ]">
 		<a class="tag" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar</a>
 		<div class="inner">
-			<img src="imagenes/informes/023.png" alt="">
+			<img src="imagenes/project/parcial.png" alt="">
 			<h2 class="title">Formato 023 Parcial</h2>
 			<p class="info">Descarga el formato limpio para diligenciar, recuerda no modificarlo para no tener inconvenientes.</p>
 			<ul class="features">
@@ -117,7 +117,7 @@ include "include.php"
 		<a class="tag" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" > Descargar</a>
 		<div class="inner">
 
-			<img src="imagenes/informes/023.png" alt="">
+			<img src="imagenes/project/final.png" alt="">
 			<h2 class="title">Formato 023 Final</h2>
 
 			<p class="info">Descarga el formato limpio para diligenciar, recuerda no modificarlo para no tener inconvenientes.</p>
@@ -165,7 +165,7 @@ include "include.php"
 		<a class="tag" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" > Descargar</a>
 		<div class="inner">
 
-			<img src="imagenes/informes/bitacora.png" alt="">
+			<img src="imagenes/project/bitacoras.png" alt="">
 			<h2 class="title">Formato 174 Bitácora</h2>
 			<p class="info">Descarga el formato limpio para diligenciar, recuerda no modificarlo para no tener inconvenientes.</p>
 			<ul class="features">
@@ -197,7 +197,7 @@ include "include.php"
 					<span><strong>Entrega</strong> </span>
 				</li>
 			</ul>
-			<a class="button" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx"> Descargar
+			<a class="button" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx"> Descargar
 				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="none">
 					<path d="M0 0h24v24H0V0z" fill="none" />
 					<path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z" fill="currentColor" />

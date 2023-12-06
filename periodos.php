@@ -178,7 +178,7 @@
             <div class="col-md-6 mx-auto pb-4">
                 <h3 class="text-start font-weight-bold">Período de bitácoras (F147)</h3>
 
-                <a class="btn btn-sm btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V2.xlsx" >
+                <a class="btn btn-sm btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx" >
                     <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
                     </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>    
                 </a>

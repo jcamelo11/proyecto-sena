@@ -66,7 +66,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid red;
+        border: 0px solid red;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -124,7 +124,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 1 -->
         <div class="card base">
-          <img src="imagenes/informes/EP-f023-01-1.png" alt="">
+          <img src="imagenes/informes/bitacoras.png" alt="">
 
           <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Escriba su regional, el centro de formación al que pertenece, nombre del programa que cursa y su numero de ficha"></div>
           <div id="intro2" class="pasos paso2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
@@ -140,7 +140,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 2 -->
         <div class="card base mt-2">
-          <img src="imagenes/informes/F023-02-2.jpg" alt="">
+          <img src="imagenes/informes/bitacoras2" alt="">
 
           <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
@@ -157,17 +157,7 @@ https://www.tooplate.com/view/2115-marvel
           
         </div>
 
-        <!-- hoja 3 -->
-        <div class="card base mt-2">
-          <img src="imagenes/informes/F023-02-3.jpg" alt="">
-
-          <div id="intro18" class="pasos paso18" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro19" class="pasos paso19" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro20" class="pasos paso20" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-        </div>
+        
 
       </div>
     

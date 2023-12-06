@@ -53,7 +53,7 @@ include "include.php"
   }
 </style>
   <div class="container">
-    <h3 class="text-center mt-5 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h3>
+    <h3 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h3>
       <div class="row mt-3">
         <div class="col-lg-3 mt-3 col-md-6">
             <div class="card mt-5 mt-md-0">
@@ -72,7 +72,7 @@ include "include.php"
                         Aprende a diligenciar los formatos F023
                     </p>
                     <a href="f023-01.php">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                     
                 </div>
@@ -95,7 +95,7 @@ include "include.php"
                         Aprende a diligenciar los formatos F023
                     </p>
                     <a href="f023-02.php">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                 </div>
             </div>
@@ -117,7 +117,7 @@ include "include.php"
                         Aprende a diligenciar los formatos F023
                     </p>
                     <a href="f023-03.php">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorialr</button>
                     </a>
                 </div>
             </div>
@@ -139,7 +139,7 @@ include "include.php"
                         Aprende a diligenciar los formatos F023
                     </p>
                     <a href="bitacora.php">
-                      <button type="button" class="btn btn-success btn-sm mb-0">Aprender</button>
+                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                 </div>
             </div>
