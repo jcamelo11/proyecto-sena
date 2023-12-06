@@ -11,7 +11,7 @@ $mensaje = $_POST['mensaje'];
 //echo $correo . " " . $nombre . " " . $mensaje;
 
 
-$destinatario = "hcanchiladeangel@gmail.com";
+$destinatario = "paredesjcamelo@gmail.com";
 $cuerpo = '
     <html> 
         <head> 
