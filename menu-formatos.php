@@ -95,7 +95,7 @@ include "include.php"
                         Aprende a diligenciar los formatos F023
                     </p>
                     <a href="f023-02.php">
-                      <button type="button" class="btn btn-success btn-sm mb-0">AVer tutorial</button>
+                      <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
                     </a>
                 </div>
             </div>

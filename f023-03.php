@@ -66,7 +66,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 0px solid red;
+        border: 2px solid red;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -100,7 +100,7 @@ https://www.tooplate.com/view/2115-marvel
       /* hoja 3 */
       .paso18{top: 445px; left: 87px; width:724px; height: 143px;}
       .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
-      .paso20{top: 836px; left: 88px; width: 371px; height: 26px;}
+      .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
 
       
 
@@ -140,7 +140,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 2 -->
         <div class="card base mt-2">
-          <img src="imagenes/informes/EP-f023-01-2.png" alt="">
+          <img src="imagenes/informes/F023-03.jpg" alt="">
 
           <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
@@ -159,7 +159,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 3 -->
         <div class="card base mt-2">
-          <img src="imagenes/informes/EP-f023-01-3.png" alt="">
+          <img src="imagenes/informes/F023-02-3.jpg" alt="">
 
           <div id="intro18" class="pasos paso18" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
@@ -186,7 +186,7 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/custom.js"></script>
     <script  src="js/alerts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script>
-    <script  src="js/intro1-f023.js"></script>
+    <script  src="js/intro3-f023.js"></script>
     <script>
       introJs().start();
     </script>
