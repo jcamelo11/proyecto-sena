@@ -129,8 +129,8 @@ https://www.tooplate.com/view/2115-marvel
         </div>
 
         <!-- hoja 2 -->
-        <div class="card base mt-2">
-          <img src="imagenes/informes/bitacoras2" alt="">
+        <div class="card base mt-n1">
+          <img src="imagenes/informes/bitacoras2.png" alt="">
 
           <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
