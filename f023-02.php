@@ -159,6 +159,11 @@ https://www.tooplate.com/view/2115-marvel
 
         </div>
 
+         <!-- hoja 4 -->
+         <div class="card base mt-2">
+            <img src="imagenes/informes/F023-02-4.jpg" alt="">
+        </div>
+
       </div>
     
     </section>
