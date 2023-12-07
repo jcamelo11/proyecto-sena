@@ -59,45 +59,50 @@ https://www.tooplate.com/view/2115-marvel
         border: 0px solid red;
       }
 
-      .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
+      .brd-bt-1{
+        border:1px solid gray ;
+        border-bottom: 0;
+        z-index: 2;
+      }
 
-      .paso2{top: 307px; left: 89px; width: 725px; height: 119px;}
-      .paso3{top: 307px; left: 268px; width: 546px; height: 119px;}
-      .paso4{top: 374px; left: 268px; width: 546px; height: 52px;}
+      .brd-bt-2{
+        border:1px solid gray ;
+        border-top: 0;
+        z-index: 1;
+      }
 
-      .paso5{top: 424px; left: 89px; width: 725px; height: 181px;}
+      .paso1{top: 143px; left: 42px; width: 811px; height: 104px;}
 
-      .paso6{top: 643px; left: 89px; width: 725px; height: 403px;}
-      .paso7{top: 700px; left: 89px; width: 339px; height: 346px;}
-      .paso8{top: 700px; left: 426px; width: 211px; height: 346px;}
-      .paso9{top: 733px; left: 635px; width: 86px; height: 313px;}
-      .paso10{top: 733px; left: 719px; width: 95px; height: 313px;}
+      .paso2{top: 262px; left: 42px; width: 811px; height: 86px;}
+
+      .paso3{top: 359px; left: 42px; width: 811px; height: 97px;}
+
+      .paso4{top: 464px; left: 42px; width: 811px; height: 87px;}
+
+      .paso5{top: 558px; left: 42px; width: 811px; height: 342px;}
+      .paso6{top: 558px; left: 42px; width: 338px; height: 342px;}
+      .paso7{top: 558px; left: 378px; width: 127px; height: 342px;}
+      .paso8{top: 558px; left: 503px; width: 197px; height: 342px;}
+      .paso9{top: 558px; left: 698px; width: 155px; height: 342px;}
+
+      .paso10{top: 920px; left: 42px; width: 811px; height: 137px;}
+      .paso11{top: 923px; left: 662px; width: 165px; height: 68px;}
+
+      .paso12{top: 1120px; left: 42px; width: 811px; height: 127px;}
+
+
+
 
       /* hoja2 */
-      .paso11{top: 456px; left: 87px; width: 728px; height: 89px;}
-      .paso12{top: 544px; left: 87px; width: 728px; height: 498px;}
-      .paso13{top: 614px; left: 87px; width: 310px; height: 54px;}
-      .paso14{top: 616px; left: 395px; width: 420px; height: 45px;}
-
-      
-      .paso15{top: 658px; left: 87px; width: 728px; height: 384px;}
-      .paso16{top: 690px; left: 87px; width:440px; height: 352px;}
-      .paso17{top: 690px; left: 525px; width:290px; height: 352px;}
-
-      
 
 
       /* hoja 3 */
-      .paso18{top: 445px; left: 87px; width:724px; height: 143px;}
-      .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
-      .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
+
 
       
 
       /* paso13{ finalización } */
 
-      .finalizacion{top: 743px; left: 719px; width: 95px; height: 313px;}
-      
 
     </style>
     
@@ -113,10 +118,10 @@ https://www.tooplate.com/view/2115-marvel
       <div class="mt-5">
 
         <!-- hoja 1 -->
-        <div class="card base">
-          <img src="imagenes/informes/bitacoras.png" alt="">
+        <div class="card brd-bt-1 base">
+          <img src="imagenes/informes/bitacora-1.png" alt="">
 
-          <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Escriba su regional, el centro de formación al que pertenece, nombre del programa que cursa y su numero de ficha"></div>
+          <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro2" class="pasos paso2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro3" class="pasos paso3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>
           <div id="intro4" class="pasos paso4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="información..."></div>
@@ -126,25 +131,13 @@ https://www.tooplate.com/view/2115-marvel
           <div id="intro8" class="pasos paso8" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro9" class="pasos paso9" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro10" class="pasos paso10" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro12" class="pasos paso12" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
         </div>
 
         <!-- hoja 2 -->
-        <div class="card base mt-n1">
-          <img src="imagenes/informes/bitacoras2.png" alt="">
-
-          <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro12" class="pasos paso12" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro13" class="pasos paso13" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-          <div id="intro14" class="pasos paso14" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro15" class="pasos paso15" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-
-          <div id="intro16" class="pasos paso16" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-          
-          <div id="intro17" class="pasos paso17" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
-          
+        <div class="card brd-bt-2 base mt-n1">
+          <img src="imagenes/informes/bitacora-2.png" alt="">
         </div>
 
         
@@ -166,10 +159,7 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/custom.js"></script>
     <script  src="js/alerts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script>
-    <script  src="js/intro2-f023.js"></script>
-    <script>
-      introJs().start();
-    </script>
+    <script  src="js/intro-bitacora.js"></script>
     
 </body>
 </html>

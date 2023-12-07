@@ -92,11 +92,7 @@ https://www.tooplate.com/view/2115-marvel
       .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
       .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
 
-      
-
-      /* paso13{ finalización } */
-
-      .finalizacion{top: 743px; left: 719px; width: 95px; height: 313px;}
+      .paso21{top: 0px; left: 0px; width: 900px; height: 1114px;}
       
 
     </style>
@@ -161,7 +157,9 @@ https://www.tooplate.com/view/2115-marvel
 
          <!-- hoja 4 -->
          <div class="card base mt-2">
-            <img src="imagenes/informes/F023-02-4.jpg" alt="">
+            <img src="imagenes/informes/EP-f023-01-4.png" alt="">
+
+            <div id="intro21" class="pasos paso21" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
         </div>
 
       </div>
