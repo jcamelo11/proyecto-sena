@@ -58,7 +58,7 @@ include "include.php"
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="imagenes/undraw/home.svg" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/certificacion.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
