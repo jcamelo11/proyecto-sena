@@ -56,7 +56,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid red;
+        border: 0px solid red;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -75,14 +75,14 @@ https://www.tooplate.com/view/2115-marvel
 
       /* hoja2 */
       .paso11{top: 456px; left: 87px; width: 728px; height: 89px;}
-      .paso12{top: 544px; left: 87px; width: 728px; height: 498px;}
-      .paso13{top: 614px; left: 87px; width: 310px; height: 54px;}
-      .paso14{top: 616px; left: 395px; width: 420px; height: 45px;}
+      .paso12{top: 543px; left: 87px; width: 728px; height: 498px;}
+      .paso13{top: 610px; left: 87px; width: 310px; height: 54px;}
+      .paso14{top: 610px; left: 395px; width: 420px; height: 45px;}
 
       
-      .paso15{top: 658px; left: 87px; width: 728px; height: 384px;}
-      .paso16{top: 690px; left: 87px; width:440px; height: 352px;}
-      .paso17{top: 690px; left: 525px; width:290px; height: 352px;}
+      .paso15{top: 655px; left: 87px; width: 728px; height: 384px;}
+      
+      .paso17{top: 686px; left: 525px; width:290px; height: 352px;}
 
       
 
@@ -92,11 +92,7 @@ https://www.tooplate.com/view/2115-marvel
       .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
       .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
 
-      
-
-      /* paso13{ finalización } */
-
-      .finalizacion{top: 743px; left: 719px; width: 95px; height: 313px;}
+      .paso21{top: 130px; left:180px; width: 565px; height: 868px;}
       
 
     </style>
@@ -141,7 +137,7 @@ https://www.tooplate.com/view/2115-marvel
 
           <div id="intro15" class="pasos paso15" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
-          <div id="intro16" class="pasos paso16" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <!-- <div id="intro16" class="pasos paso16" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div> -->
           
           <div id="intro17" class="pasos paso17" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           
@@ -159,11 +155,12 @@ https://www.tooplate.com/view/2115-marvel
 
         </div>
 
-          <!-- hoja 4 -->
-          <div class="card base mt-2">
-            <img src="imagenes/informes/F023-02-4.jpg" alt="">
-        </div>
+         <!-- hoja 4 -->
+         <div class="card base mt-2">
+            <img src="imagenes/informes/EP-f023-01-4.png" alt="">
 
+            <div id="intro21" class="pasos paso21" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+        </div>
 
       </div>
     

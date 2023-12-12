@@ -61,7 +61,7 @@ function intro_calcular() {
             
             {
                 element: document.getElementById('intro20'),
-                intro: 'no te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'No te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },{
                 element: document.getElementById(''),
                 intro: 'Te deseamos mucho éxito en tu proceso de etapa productiva y certificación. <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Done para finalizar', step: 13

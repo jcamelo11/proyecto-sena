@@ -12,7 +12,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<strong>Informe F023 concertación</strong><br><br><audio autoplay class="w-100 mt-3" style="display: none;" controls><source src="audios/concertacion.m4a" type="audio/mpeg"></audio>Indicaciones de como diligenciar',
+                intro: '<strong>Informe F023 Parcial</strong><br><br><audio autoplay class="w-100 mt-3" style="display: none;" controls><source src="audios/f023-02/parcial.m4a" type="audio/mpeg"></audio>Indicaciones de como diligenciar',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -60,47 +60,40 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro12'),
-                intro: 'xxxxxx<br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/seguimiento.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 12
+                intro: 'En esta fase se evalúa junto con el ente conformador competencias actitudinales, comportamentales y técnica del aprendiz<br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/seguimiento.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 12
             },
             {
                 element: document.getElementById('intro13'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/tipo-informe.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'Marcamos el tipo de informe, para este caso marcamos parcial <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/tipo-informe.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById('intro14'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/periodo.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'En el periodo evaluado va la fecha de inicio y final de los tres meses de etapa productiva  <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/periodo.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById('intro15'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'En esta fase se evalúa junto con el ente conformador competencias actitudinales, comportamentales y técnica del aprendiz <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/factores.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
-            {
-                element: document.getElementById('intro16'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
-            },
+            
             {
                 element: document.getElementById('intro17'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
-            },
-            {
-                element: document.getElementById('intro18'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'Se marca con una x en la columna de satisfactorio, si le falta un mayor desempeño se marca x en la columna por mejorar y en la observación se deja lo aspectos mas relevantes a resaltar o a subsanar. <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/valoracion.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById('intro19'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'En este espacio también debe de llavar nombres y firmas de los actores del procedimiento <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso10.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById('intro20'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'No te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById('intro21'),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'Si la evidencia que planeas presentar se compone de fotografías, se debe situarla al final del documento  <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/f023-02/evidencias.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
             },
             {
                 element: document.getElementById(''),
-                intro: 'El sistema arrojará el resultado con la información de como están clasificado tu suelo, según la información digitada <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Next para avanzar', step: 13
+                intro: 'Te deseamos mucho éxito en tu proceso de etapa productiva y certificación <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Done para finalizar', step: 13
             },
 
 

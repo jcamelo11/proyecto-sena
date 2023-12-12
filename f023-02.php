@@ -56,7 +56,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid red;
+        border: 0px solid red;
       }
 
       .paso1{top: 232px; left: 89px; width: 725px; height: 60px;}
@@ -92,7 +92,7 @@ https://www.tooplate.com/view/2115-marvel
       .paso19{top: 750px; left: 87px; width: 726px; height: 111px;}
       .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
 
-      .paso21{top: 0px; left: 0px; width: 900px; height: 1114px;}
+      .paso21{top: 130px; left:180px; width: 565px; height: 868px;}
       
 
     </style>
@@ -137,7 +137,7 @@ https://www.tooplate.com/view/2115-marvel
 
           <div id="intro15" class="pasos paso15" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
 
-          <div id="intro16" class="pasos paso16" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <!-- <div id="intro16" class="pasos paso16" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div> -->
           
           <div id="intro17" class="pasos paso17" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           
