@@ -105,7 +105,7 @@ include "include.php"
 
 
                       </div>
-                      <a href="admin.php"><p class="mt-5 mb-3 text-center">Estadísticas</p></a>
+                      <!-- <a href="admin.php"><p class="mt-5 mb-3 text-center">Estadísticas</p></a> -->
 
                   </div>
                 </div>

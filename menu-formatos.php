@@ -149,7 +149,7 @@ include "include.php"
                     
                     <h5 class="text-success">Bitácoras</h5>
                     <p>
-                        Aprende a diligenciar los formatos F023
+                        Aprende a diligenciar el formatos F147
                     </p>
                     <a href="bitacora.php">
                       <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
@@ -159,6 +159,74 @@ include "include.php"
         </div>
       </div>
   </div>
+  <section class="resume mt-2 py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+            <style>
+              .timeline-sebas {
+                position: relative;
+                padding: 22px 0;
+              }
+              .timeline-sebas:last-child:before {
+                height: 0;
+              }
+              .timeline-sebas:before {
+                content: "";
+                background: #28a745;
+                width: 3px;
+                height: 100%;
+                position: absolute;
+                left: 38px;
+              }
+            </style>
+
+            <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">¿Cómo deben de llamarse mis <span class="text-success">Informes</span>?</h2>
+    
+                    <div class="timeline ">
+                        <div class="timeline-sebas">
+                             <div class="timeline-yr bg-success">
+                                  <span>1</span>
+                             </div>
+                             <div class="timeline-info ">
+                                 
+                                  <p>Los informes de seguimiento solo se los deben entregar o enviar a su instructor de seguimiento </p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-sebas ">
+                            <div class="timeline-yr bg-success">
+                                <span>2</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h5><span>No. De informes de Seguimiento:</span><small></small></h5>
+                                <p>Para los aprendices que iniciaron Etapa Productiva en el año 2022, recuerden que los informes de seguimiento son 15 (3 formatos 023 y 12 Bitácoras en el formato 147). </p>
+                                <p>Para los aprendices que iniciaron y terminaron Etapa Productiva en el año 2021, recuerden que los informes de seguimiento son 12 (3 formatos 023 y 09 Bitácoras en el formato 147) </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr bg-success">
+                                <span>3</span>
+                            </div>
+                            <div class="timeline-info">
+                               
+                                <p>La nomenclatura que deben llevar los informes (pedro pérez = primer nombre y primer apellido del aprendiz) y miguel calderón = primer nombre y primer apellido del instructor de seguimiento que se le asignó a cada aprendiz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 mx-auto my-auto col-12">
+                    <div class="about-image  svg">
+                        <img src="imagenes/project/nomenclatura.png" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     
     <!-- FOOTER -->
      <footer class="footer py-5">

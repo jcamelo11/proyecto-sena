@@ -86,11 +86,8 @@
             <!-- Fecha de informe concertacion-->
             <div class="col-auto m-auto">
                 <h3>Informe concertación</h3> 
-                <h3 class="float-left mt-2" style="font-size:18px;">(F023-01)</h3> 
-                <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx">
-                    <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
-                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>  
-                </a>
+                <h3 class=" mt-2" style="font-size:18px;"><span class="text-success font-weight-bold">(F023-01)</sapan></h3> 
+              
 
                 <table class="rwd-table2">
                     <thead>
@@ -106,16 +103,20 @@
                         </tr>
                     </tbody>
                 </table>
+                <!-- <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx">
+                    <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
+                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>  
+                </a> -->
             </div>
 
             <!-- Fecha de informe parcial -->
             <div class="col-auto m-auto">
                 <h3>Informe parcial</h3>
-                <h3 class="float-left mt-2" style="font-size:18px;">(F023-02)</h3> 
-                    <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
+                <h3 class="mt-2" style="font-size:18px;"><span class="text-success font-weight-bold">(F023-02)</sapan></h3> 
+                    <!-- <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
                         <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
                         </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>
-                    </a>
+                    </a> -->
                 <table id="cesar2" class="rwd-table2" >
                     <thead>
                         <tr class="">
@@ -136,11 +137,11 @@
             <!-- Fecha de informe final -->
             <div class="col-auto m-auto">
                 <h3>Informe final</h3>
-                <h3 class="float-left mt-2" style="font-size:18px;">(F023-03)</h3>
-                    <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
+                <h3 class="mt-2" style="font-size:18px;"><span class="text-success font-weight-bold">(F023-03)</sapan></h3>
+                    <!-- <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
                         <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
                         </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>
-                    </a>
+                    </a> -->
                 <table id="cesar2" class="rwd-table2" >
                     <thead>
                         <tr class="">
@@ -155,9 +156,19 @@
                         </tr>
                     </tbody>
                 </table>
-                
             </div>
+            <div class="mx-auto">
+            <a class="btn btn-sm btn-success" href="informes/GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" download="GFPI-F-023_Formato_Planeacion_seguimiento_y_evaluacion_etapa_productiva.docx" >
+                <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined pr-2">file_save</span>
+                </span> 
+                <p class="mb-n4 text-white " style="float:right;">Descargar formato F023</p>
+            </a>
+
+            </div>
+            
         </div>
+        <br><br>
     </div>
         
     <!-- Fecha de informe final -->
@@ -170,7 +181,7 @@
 
                 <a class="btn btn-sm btn-success" href="informes/GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx" download="GFPI-F-147_Formato_bitácora_etapa_productiva - V3.xlsx" >
                     <span class="material-symbols-outlined"><span class="material-symbols-outlined pr-2">file_save</span>
-                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato</p>    
+                    </span> <p class="mb-n4 text-white " style="float:right;">Descargar formato F147</p>    
                 </a>
                  
                 <table id="cesar" class="rwd-table mx-auto" >
@@ -236,8 +247,8 @@
             <div class="col-md-6 pb-4 mx-auto">
             <h3 class="text-start font-weight-bold">Guías interactivas</h3>
                 <div class="mx-auto">
-                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-1" alt="Editado por heyder canchila" style="width: 475px;" ></a>
-                    <a href="form-seguimiento.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="menu-formatos.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-1" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="req-certificacion.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
                 </div>
                 <table class="mx-auto border border-gray mt-5">
                          
@@ -282,7 +293,7 @@
         $(document).ready( function () {
         $('#cesar').DataTable();
         } );
-    </script>
+    </script> 
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 
     
@@ -296,5 +307,5 @@
     <script src="js/custom.js"></script>
    
     <script  src="js/alerts.js"></script>
-</body>
+    </body>
 </html>
