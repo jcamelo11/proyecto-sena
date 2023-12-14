@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/style-periodos.css">
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
     <link rel="stylesheet" href="css/escritura.css">
@@ -66,7 +67,7 @@ include "include.php"
   }
 </style>
   <div class="container">
-    <h3 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h3>
+    <h2 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h2>
       <div class="row mt-3">
         <div class="col-lg-3 mt-3 col-md-6">
             <div class="card mt-5 mt-md-0">
@@ -225,16 +226,23 @@ include "include.php"
                 </div>
 
             </div>
+            <div class="container">
+                <h2 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h2>
+                <p class="col-md-9 mx-auto">Si ya entregaste todos los formatos de seguimiento de etapa productiva a tu instructor de seguimiento y están bien diligenciados, es hora de conocer los requisitos que debes entregar para poder certificarte.</p>
+                <div class="row mt-3 ">
+                   <a class="mx-auto" href="req-certificacion.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 675px;" ></a>
+                </div>
+            </div>
         </div>
     </section>
+    
+    <p class="mt-5 mb-3 text-center text-muted">&copy; Versión 2.0</p> 
     
     <!-- FOOTER -->
      <footer class="footer py-5">
           <div class="container">
                <div class="row">
-
-
-                    
+               
                </div>
           </div>
      </footer>
