@@ -56,7 +56,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 0px solid red;
+        border: 2px solid red;
       }
 
       .brd-bt-1{
@@ -89,6 +89,9 @@ https://www.tooplate.com/view/2115-marvel
       .paso11{top: 923px; left: 662px; width: 165px; height: 68px;}
 
       .paso12{top: 1120px; left: 42px; width: 811px; height: 127px;}
+
+      .paso13{top: 262px; left: 533px; width: 321px; height: 38px;}
+
 
 
 
@@ -133,6 +136,7 @@ https://www.tooplate.com/view/2115-marvel
           <div id="intro10" class="pasos paso10" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro11" class="pasos paso11" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
           <div id="intro12" class="pasos paso12" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+          <div id="intro13" class="pasos paso13" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
         </div>
 
         <!-- hoja 2 -->

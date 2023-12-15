@@ -227,7 +227,7 @@ include "include.php"
 
             </div>
             <div class="container">
-                <h2 class="text-center mt-4 text-">Elige el formato que quieres <span class="text-success">diligenciar</span></h2>
+                <h2 class="text-center mt-4 text-">¿Ya entregaste todos los formatos de  <span class="text-success">seguimiento</span>?</h2>
                 <p class="col-md-9 mx-auto">Si ya entregaste todos los formatos de seguimiento de etapa productiva a tu instructor de seguimiento y están bien diligenciados, es hora de conocer los requisitos que debes entregar para poder certificarte.</p>
                 <div class="row mt-3 ">
                    <a class="mx-auto" href="req-certificacion.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 675px;" ></a>

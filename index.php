@@ -50,7 +50,7 @@ include "include.php"
                         <p>El deber ser del aprendíz en su ETAPA PRODUCTIVA es entregar los informes F023|F147 y requisitos de certificación para lograr recibir satisfactoriamente su certificado</p>
                         
                         <div class="custom-btn-group mt-4" >
-                          <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
+                          <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success  text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
                           <a href="req-certificacion.php" class="btn custom-btn custom-btn-bg custom-btn-link">Requisitos de certificación</a>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ include "include.php"
                              </div>
                              <div class="timeline-info ">
                                   <h3><span>Inicio de Etapa Productiva</span><a  href="inicio-ep.php"><small></small></a></h3>
-                                  <p>Al iniciar tu etapa productiva debes cumplir con algunos documentos esenciales para las afiliaciones y seguros, EPS, ARL, camara de comercio, etc.<a rel="nofollow" href="inicio-ep.php">click para saber cuales son</a> </p>
+                                  <p>Al iniciar tu etapa productiva debes cumplir con algunos documentos esenciales para las afiliaciones y seguros, EPS, ARL, camara de comercio, etc.</p>
                              </div>
                         </div>
 
@@ -173,7 +173,7 @@ include "include.php"
 
                 <div class="col-lg-5 col-md-12 mx-auto my-auto col-12">
                     <div class="about-image  svg">
-                        <img src="imagenes/undraw/ask1.svg" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/cuate.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
@@ -215,8 +215,15 @@ include "include.php"
             <div class="contact-form">
               <h2 class="mb-4">¿Tienes dudas?</h2>
               <p>Este espacio fue diseñado solo para solicitar apoyo relacionado con el tema de informes, asegurese de haber explorado previamente el sitio web, o recurre a la oficina de coordinación académica de tu centro. </p>
+              <div class="ml-lg-auto text-center col-lg-5 col-12">
+                <a href="https://forms.gle/BTMF7Thxe9CTFpnL6" class="btn mr-lg-2 custom-btn bg-success  text-white"  data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank" ></i>Contáctanos</a>
+              </div>
 
-              <form action="correo.php" method="post">
+              <img src="imagenes/undraw/ask1.svg" class="img-fluid mt-3" alt="svg image">
+              
+              
+
+              <!-- <form action="correo.php" method="post">
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input type="text" class="form-control" name="nombre" placeholder="nombre" id="nombre" required>
@@ -238,7 +245,7 @@ include "include.php"
                   </div>
                 </div>
                 
-              </form>
+              </form> -->
             </div>
           </div>
 

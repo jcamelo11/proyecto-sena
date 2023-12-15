@@ -22,9 +22,14 @@ function intro_calcular() {
                 element: document.getElementById('intro1'),
                 intro: 'Aquí va la reginal, nombre del centro, nombre y ficha del programa de formación<audio autoplay class="w-100 mt-3" controls><source src="audios/paso1.m4a" type="audio/mpeg"></audio>presiona siguiente para ver más detalles', step: 1
             },
+          
             {
                 element: document.getElementById('intro2'),
                 intro: 'En este espacio vas a diligenciar tus datos personales<audio autoplay class="w-100 mt-3" controls><source src="audios/paso2.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar', step: 2
+            },
+            {
+                element: document.getElementById('intro13'),
+                intro: 'Aquí va la reginal, nombre del centro, nombre y ficha del programa de formación<audio autoplay class="w-100 mt-3" controls><source src="audios/paso1.m4a" type="audio/mpeg"></audio>presiona siguiente para ver más detalles', step: 1
             },
             {
                 element: document.getElementById('intro3'),
@@ -81,4 +86,4 @@ function intro_calcular() {
 //    font-size: 16px; /* Tamaño de fuente personalizado */
 //    /* Otros estilos personalizados, como el fondo, el color de texto, el margen, etc. */
 //}
-intro_calcular()
+//intro_calcular()
