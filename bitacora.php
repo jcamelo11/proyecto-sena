@@ -56,7 +56,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid red;
+        border: 0px solid red;
       }
 
       .brd-bt-1{
@@ -141,7 +141,7 @@ https://www.tooplate.com/view/2115-marvel
 
         <!-- hoja 2 -->
         <div class="card brd-bt-2 base mt-n1">
-          <img src="imagenes/informes/bitacora-2.png" alt="">
+          <img src="imagenes/informes/bitacora-3.png" alt="">
         </div>
 
         

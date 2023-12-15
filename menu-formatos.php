@@ -19,31 +19,7 @@
     
   </head>
   <body>
-<!-- 
-  <?php
-    // $archivo_contador = 'contador/contador.txt';
 
-    // Intenta leer el archivo
-    // if (file_exists($archivo_contador)) {
-        // $contador = (int)file_get_contents($archivo_contador);
-    
-        // Manejo de errores al leer el archivo
-        // if ($contador === false) {
-        //     die('Error al leer el archivo de contador.');
-        // }
-    
-    //     $contador++;
-    // } else {
-    //     $contador = 1;
-    // }
-    
-    // Intenta escribir en el archivo
-    // if (file_put_contents($archivo_contador, $contador) === false) {
-    //     die('Error al escribir en el archivo de contador.');
-    // }
-    
-    // echo '<div style="position:fixed;bottom:20px;z-index:9;right:20px;background: #28a745;padding: 2px 10px;color: #fff;font-size: 20px;border-radius: 80px;">' . $contador . '</div>';    
-    // ?> -->
 
 <?php
 include "include.php"
@@ -81,7 +57,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Informe concertación</h5>
+                    <h5 class="text-success">F023 Concertación</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -104,7 +80,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Informe parcial</h5>
+                    <h5 class="text-success">F023 Parcial</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -126,7 +102,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Informe final</h5>
+                    <h5 class="text-success">F023 Final</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -148,9 +124,9 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Bitácoras</h5>
+                    <h5 class="text-success">Formato F147 Bitácoras</h5>
                     <p>
-                        Aprende a diligenciar el formatos F147
+                        Aprende a diligenciar el formatos F147 
                     </p>
                     <a href="bitacora.php">
                       <button type="button" class="btn btn-success btn-sm mb-0">Ver tutorial</button>
