@@ -248,7 +248,7 @@ tr.introjs-showElement>th {
 }
 
 .audio-intro{
-    position: absolute;top: 130px;transform: translate(-50%, -50%); width:240px;height:30px;
+    position: absolute;top: 127px;transform: translate(-50%, -50%); width:240px;height:30px;
 }
 
 .introjs-tooltip-title {
