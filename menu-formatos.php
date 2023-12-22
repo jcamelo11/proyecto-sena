@@ -196,7 +196,7 @@ include "include.php"
                 </div>
 
                 <div class="col-lg-5 col-md-12 mx-auto my-auto col-12">
-                    <div class="about-image  svg">
+                    <div class="about-image svg">
                         <img src="imagenes/project/nomenclatura.png" class="img-fluid" alt="svg image">
                     </div>
                 </div>
