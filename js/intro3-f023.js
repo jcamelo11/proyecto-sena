@@ -1,18 +1,31 @@
-function intro_calcular() {
+function intro_bot() {
+    ocultarImagen()
     var intro = introJs();
     intro.setOptions({
         steps: [
             {
                 element: document.getElementById(''),
-                intro: ' <div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente de voz<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="250px" alt="">',
+                intro: ' <div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'bottom',
                 x: 100, // Coordenada X
                 y: 0, // Coordenada Y
             },
+        ]
+    });
+    intro.start();
+}
+intro_bot()
+
+function intro_calcular() {
+    ocultarImagen()
+    var intro = introJs();
+    intro.setOptions({
+        steps: [
+            
             {
                 element: document.getElementById(''),
-                intro: ' <div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 Final</h4></strong> <br><audio autoplay class="audio-intro" controls><source src="audios/audios/f023-03/final.m4a" type="audio/mpeg"></audio></div>',
+                intro: ' <div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 Final</h4></strong> <br><audio autoplay class="audio-intro" controls><source src="audios/audios/f023-03/final.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'bottom',
                 x: 100, // Coordenada X
@@ -157,7 +170,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: ' <div class="btn bg-white mb-0 subtitulos"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, cupiditate alias illo numquam ea incidunt ipsam excepturi minima non nulla. <br> <audio autoplay class="audio-intro" controls><source src="audios/" type="audio/mpeg"></audio></div>', step: 13,
+                intro: ' <div class="btn bg-white mb-0 subtitulos"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, cupiditate alias illo numquam ea incidunt ipsam excepturi minima non nulla. <br> <audio autoplay class="audio-intro" controls><source src="audios/" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">', step: 13,
                 position: 'bottom',
                 x: 100, // Coordenada X
                 y: 0, // Coordenada Y
@@ -175,4 +188,3 @@ function intro_calcular() {
 //    font-size: 16px; /* Tamaño de fuente personalizado */
 //    /* Otros estilos personalizados, como el fondo, el color de texto, el margen, etc. */
 //}
-intro_calcular()

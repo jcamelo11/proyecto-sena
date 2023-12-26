@@ -21,7 +21,8 @@
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
 
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -35,7 +36,7 @@ https://www.tooplate.com/view/2115-marvel
 
 -->
   </head>
-<body>
+<body >
 
     <!-- MENU -->
    <?php
@@ -95,15 +96,40 @@ https://www.tooplate.com/view/2115-marvel
       
 
     </style>
+
     
     <!-- CARD -->
     <section  class="mb-4 bg-gray-200">
 
       <a href="menu-formatos.php">
-        <button type="button" class="btn btn-success btn-sm mb-0" style="position: fixed; top: 150px; left: 20px; z-index: 9999;">Volver</button>
+        <div type="button" class="btn btn-success btn-sm pt-2" style="position: fixed; top: 150px; left: 20px; z-index: 9999;">
+          <span class="material-symbols-outlined text-white">undo </span><h4 class="float-right mt-1" style="font-size: 13px;">Volver</h4></div>
       </a>
 
-      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()"><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
+      <!-- ⭐⭐ - sug_click - ⭐⭐  -->
+      <div id="mensaje_click" style="bottom: -64px; left: 120px;position: fixed;transform: translate(-50%, -50%);z-index: 9999;" >
+        <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
+        
+        </div>
+        <script>
+          function mostrarImagen() {
+            document.getElementById('mensaje_click').style.display = 'block';
+          }
+  
+          function ocultarImagen() {
+            document.getElementById('mensaje_click').style.display = 'none';
+          }
+  
+          // Mostrar imagen al cargar la página
+          window.onload = function() {
+            mostrarImagen();
+          };
+        </script>
+        <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
+
+        <h5 class="bg-white" style="position: fixed; bottom: 60px; left: 5px; z-index: 9999;">clic aquí</h5> 
+      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
+      
       
       <div class="mt-5">
 
