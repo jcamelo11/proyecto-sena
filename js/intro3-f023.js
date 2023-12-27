@@ -1,31 +1,19 @@
-function intro_bot() {
-    ocultarImagen()
-    var intro = introJs();
-    intro.setOptions({
-        steps: [
-            {
-                element: document.getElementById(''),
-                intro: ' <div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
-                step: 0,
-                position: 'bottom',
-                x: 100, // Coordenada X
-                y: 0, // Coordenada Y
-            },
-        ]
-    });
-    intro.start();
-}
-intro_bot()
-
 function intro_calcular() {
     ocultarImagen()
     var intro = introJs();
     intro.setOptions({
         steps: [
-            
             {
                 element: document.getElementById(''),
-                intro: ' <div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 Final</h4></strong> <br><audio autoplay class="audio-intro" controls><source src="audios/audios/f023-03/final.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                step: 0,
+                position: 'right',
+                x: 100, // Coordenada X
+                y: 0, // Coordenada Y
+            },
+            {
+                element: document.getElementById(''),
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 Final</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-03/final.m4a" type="audio/mpeg"></audio>',
                 step: 0,
                 position: 'bottom',
                 x: 100, // Coordenada X

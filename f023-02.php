@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/logo.css">
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
-    <link rel="stylesheet" href="https://unpkg.com/intro.js/introjs.css">
     <link rel="stylesheet" href="css/intro.css">
        <!-- Favicon -->
    <link href= "../assets/img/favicon.ico" rel="icon">
@@ -22,19 +21,13 @@
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
 
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     
-<!--
-
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
--->
   </head>
 <body>
 
@@ -100,12 +93,36 @@ https://www.tooplate.com/view/2115-marvel
     <!-- CARD -->
     <section  class="mb-4 bg-gray-200" >
 
-      <a href="menu-formatos.php">
-        <button type="button" class="btn btn-success btn-sm mb-0" style="position: fixed; top: 150px; left: 20px; z-index: 9999;">Volver</button>
+    <a href="menu-formatos.php">
+        <div type="button" class="btn btn-success btn-sm pt-2" style="position: fixed; top: 150px; left: 20px; z-index: 9999;">
+          <span class="material-symbols-outlined text-white">undo </span><h4 class="float-right mt-1" style="font-size: 13px;">Volver</h4></div>
       </a>
 
-      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()"><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
+      <!-- ⭐⭐ - sug_click - ⭐⭐  -->
+      <div id="mensaje_click" style="bottom: -64px; left: 120px;position: fixed;transform: translate(-50%, -50%);z-index: 9999;" >
+        <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
+        
+        </div>
+        <script>
+          function mostrarImagen() {
+            document.getElementById('mensaje_click').style.display = 'block';
+          }
+  
+          function ocultarImagen() {
+            document.getElementById('mensaje_click').style.display = 'none';
+          }
+  
+          // Mostrar imagen al cargar la página
+          window.onload = function() {
+            mostrarImagen();
+          };
+        </script>
+        <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
+
       
+        <div id="popup" class="bg-white" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> 
+      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>  
+
       <div class="mt-5">
 
         <!-- hoja 1 -->
@@ -169,7 +186,7 @@ https://www.tooplate.com/view/2115-marvel
 
    
 
-   <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/Headroom.js"></script>
@@ -178,8 +195,10 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
     <script  src="js/alerts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.2.2/intro.min.js"></script> -->
+    <script src="js/introweb.js"></script>
     <script  src="js/intro2-f023.js"></script>
+    <script  src="js/config.js"></script>
     <script>
       introJs().start();
     </script>
