@@ -104,20 +104,6 @@
         <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
         
         </div>
-        <script>
-          function mostrarImagen() {
-            document.getElementById('mensaje_click').style.display = 'block';
-          }
-  
-          function ocultarImagen() {
-            document.getElementById('mensaje_click').style.display = 'none';
-          }
-  
-          // Mostrar imagen al cargar la página
-          window.onload = function() {
-            mostrarImagen();
-          };
-        </script>
         <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
 
       
@@ -201,10 +187,22 @@
     <script src="js/introweb.js"></script>
     <script  src="js/intro3-f023.js"></script>
     <script  src="js/config.js"></script>
-    
     <script>
-      introJs().start();
+      function mostrarImagen() {
+        document.getElementById('mensaje_click').style.display = 'block';
+      }
+
+      function ocultarImagen() {
+        document.getElementById('mensaje_click').style.display = 'none';
+      }
+
+      // Mostrar imagen al cargar la página
+     
+        mostrarImagen();
+      
     </script>
+    
+    
     
 </body>
 </html>

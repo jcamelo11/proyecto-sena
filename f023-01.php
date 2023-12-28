@@ -27,8 +27,15 @@
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    
-  </head>
+
+  <!--
+
+Tooplate 2115 Marvel
+
+https://www.tooplate.com/view/2115-marvel
+
+-->
+</head>
 <body>
 
     <!-- MENU -->
@@ -107,24 +114,11 @@
         <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
         
         </div>
-        <script>
-          function mostrarImagen() {
-            document.getElementById('mensaje_click').style.display = 'block';
-          }
-  
-          function ocultarImagen() {
-            document.getElementById('mensaje_click').style.display = 'none';
-          }
-  
-          // Mostrar imagen al cargar la página
-          window.onload = function() {
-            mostrarImagen();
-          };
-        </script>
         <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
 
       
         <div id="popup" class="bg-white" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> 
+
       <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
       <div class="mt-5">
 
@@ -196,8 +190,20 @@
     <script  src="js/intro1-f023.js"></script>
     <script  src="js/config.js"></script>
     <script>
-      introJs().start();
+      function mostrarImagen() {
+        document.getElementById('mensaje_click').style.display = 'block';
+      }
+
+      function ocultarImagen() {
+        document.getElementById('mensaje_click').style.display = 'none';
+      }
+
+      // Mostrar imagen al cargar la página
+     
+        mostrarImagen();
+      
     </script>
+
     
 </body>
 </html>

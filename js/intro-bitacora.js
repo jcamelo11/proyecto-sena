@@ -1,10 +1,11 @@
 function intro_calcular() {
+    ocultarImagen()
     var intro = introJs();
     intro.setOptions({
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<img class="mt-n5 mb-2" src="../assets/img/1x/jose.png" alt="" style="position:relative; width: 150px; left:20px; z-index: 1;"><strong>¡Hola!</strong> Soy tu asistente de voz<br> <audio autoplay class="w-100 mt-3" style="display: none;" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -12,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<strong>Formato F147 bitácoras</strong><br><br><audio autoplay class="w-100 mt-3" style="display: none;" controls><source src="audios/bitacoras/bitacoras.m4a" type="audio/mpeg"></audio>Indicaciones de como diligenciar',
+                intro: '<div class="btn bg-white  mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F147 bitácoras</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/bitacoras/bitacoras.m4a" type="audio/mpeg"></audio></div>',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
