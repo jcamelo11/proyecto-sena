@@ -21,9 +21,8 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: 'Aquí va la reginal y nombre del centro de formación<audio autoplay class="w-100 mt-3" controls><source src="audios/bitacoras/centro.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar', step: 1
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio></div>', step: 1
             },
-          
             {
                 element: document.getElementById('intro2'),
                 intro: 'Aquí vas a escribir los datos de la empresa donde estas haciendo tu etapa productiva <audio autoplay class="w-100 mt-3" controls><source src="audios/bitacoras/ente.m4a" type="audio/mpeg"></audio>presiona siguiente para avanzar', step: 2
@@ -74,9 +73,12 @@ function intro_calcular() {
             // },
             {
                 element: document.getElementById(''),
-                intro: 'Te deseamos mucho éxito en tu proceso de etapa productiva y certificación. <br> <audio autoplay class="w-100 mt-3" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio>presiona Done para finalizar', step: 13
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡ÉXITO!</h5></strong> Te deseamos mucho éxito en tu proceso de etapa productiva y certificación<br> <br><audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                step: 0,
+                position: 'right',
+                x: 100, // Coordenada X
+                y: 0, // Coordenada Y
             },
-
 
         ]
     });

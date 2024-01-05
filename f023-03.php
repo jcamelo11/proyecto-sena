@@ -86,7 +86,9 @@
       .paso20{top: 859px; left: 88px; width: 371px; height: 26px;}
 
       .paso21{top: 130px; left:180px; width: 565px; height: 868px;}
-      
+
+      /* hoja 4*/
+      .paso22{top: 130px; left:155px; width: 625px; height: 800px;}    
 
     </style>
 
@@ -165,6 +167,13 @@
             <img src="imagenes/informes/EP-f023-01-4.png" alt="">
 
             <div id="intro21" class="pasos paso21" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
+        </div>
+
+        <!-- hoja 5 -->
+        <div class="card base mt-2">
+            <img src="imagenes/informes/certificacion.jpg" alt="">
+
+            <div id="intro22" class="pasos paso22" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
         </div>
 
       </div>

@@ -63,9 +63,14 @@ function intro_calcular() {
             {
                 element: document.getElementById('intro20'),
                 intro: '<div class="btn bg-white mb-0 subtitulos">No te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="audio-intro" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio></div>', step: 13
-            },{
+            },
+            {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Te deseamos mucho éxito en tu proceso de etapa productiva y certificación. <br> <audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div>', step: 13
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡ÉXITO!</h5></strong> Te deseamos mucho éxito en tu proceso de etapa productiva y certificación<br> <br><audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                step: 0,
+                position: 'right',
+                x: 100, // Coordenada X
+                y: 0, // Coordenada Y
             },
 
 

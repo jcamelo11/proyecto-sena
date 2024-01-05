@@ -92,11 +92,14 @@ function intro_calcular() {
                 element: document.getElementById('intro21'),
                 intro: '<div class="btn bg-white mb-0 subtitulos">Si la evidencia que planeas presentar se compone de fotografías, se debe situarla al final del documento  <br> <audio autoplay class="audio-intro" controls><source src="audios/f023-02/evidencias.m4a" type="audio/mpeg"></audio></div>', step: 13
             },
-            {
+              {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Te deseamos mucho éxito en tu proceso de etapa productiva y certificación <br> <audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div>', step: 13
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡ÉXITO!</h5></strong> Te deseamos mucho éxito en tu proceso de etapa productiva y certificación<br> <br><audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                step: 0,
+                position: 'right',
+                x: 100, // Coordenada X
+                y: 0, // Coordenada Y
             },
-
 
         ]
     });
