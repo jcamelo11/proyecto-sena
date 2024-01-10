@@ -56,7 +56,7 @@ https://www.tooplate.com/view/2115-marvel
       .pasos{
         position: absolute; 
         z-index: 9;
-        border: 2px solid red;
+        border: 0px solid red;
       }
 
       .brd-bt-1{

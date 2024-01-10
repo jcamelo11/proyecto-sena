@@ -21,7 +21,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio></div>', step: 1
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/centro.m4a" type="audio/mpeg"></audio></div>', step: 1
             },
             {
                 element: document.getElementById('intro2'),

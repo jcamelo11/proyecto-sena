@@ -57,7 +57,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">F023 Concertación</h5>
+                    <h5 class="text-success">Formato F023 Planeación (Concertación)</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -80,7 +80,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">F023 Parcial</h5>
+                    <h5 class="text-success">Formato F023 Seguimiento (Parcial)</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -102,7 +102,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">F023 Final</h5>
+                    <h5 class="text-success">Formato F023 Evaluación (Final)</h5>
                     <p>
                         Aprende a diligenciar los formatos F023
                     </p>
@@ -124,7 +124,7 @@ include "include.php"
                 </div>
                 <div class="card-body pt-3">
                     
-                    <h5 class="text-success">Formato F147 Bitácoras</h5>
+                    <h5 class="text-success">Formato F147 (Bitácoras)</h5>
                     <p>
                         Aprende a diligenciar el formatos F147 
                     </p>

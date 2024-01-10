@@ -39,7 +39,7 @@ include "include.php"
                     <div class="about-text">
                         <span class="escritura">¡Bienvenido aprendriz a este nuevo sitio web!</span>
                         <h1 class="animated animated-text">
-                            <span class="mr-2">¿Deseas certificarte? ¿Sabes que documentos entregar?</span>
+                            <span class="mr-2">¿Cómo diligenciar los formatos de seguimiento de etapa productiva?</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Aprende</span>
                                     <span class="animated-item">Consulta</span>
@@ -47,18 +47,17 @@ include "include.php"
                                 </div>
                         </h1>
 
-                        <p>El deber ser del aprendíz en su ETAPA PRODUCTIVA es entregar los informes F023|F147 y requisitos de certificación para lograr recibir satisfactoriamente su certificado</p>
+                        <p>¿No sabes diliginciar los formatos de seguimiento de etapa productiva? ¡No te preocupes! Aquí te explicaremos a como diligenciarlos.</p>
                         
                         <div class="custom-btn-group mt-4" >
                           <a href="menu-formatos.php" class="btn mr-lg-2 custom-btn bg-success  text-white" ><i class='uil uil-file-alt'></i> Como diligenciar 023|147</a>
-                          <a href="req-certificacion.php" class="btn custom-btn custom-btn-bg custom-btn-link">Requisitos de certificación</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="imagenes/undraw/certificacion.svg" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/inicio2.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
