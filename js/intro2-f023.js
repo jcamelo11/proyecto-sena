@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 Parcial</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-02/parcial.m4a" type="audio/mpeg"></audio>',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 seguimiento (parcial)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-02/formato.m4a" type="audio/mpeg"></audio>',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -37,24 +37,9 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro6'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">En este segmento, se especificarán las tareas que consensuarás con tu supervisor durante tu periodo de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/paso5.m4a" type="audio/mpeg"></audio></div>', step: 6
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí va la misma información que dilienciaste en el formato de planeacion (F023 concertación) <br> <audio autoplay class="audio-intro" controls><source src="audios/f023-02/planeacionep.m4a" type="audio/mpeg"></audio></div>', step: 6
             },
-            {
-                element: document.getElementById('intro7'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/paso6.m4a" type="audio/mpeg"></audio></div>', step: 7
-            },
-            {
-                element: document.getElementById('intro8'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aqui vas a describir como presentarás la evidencia <br> <audio autoplay class="audio-intro" controls><source src="audios/paso7.m4a" type="audio/mpeg"></audio></div>', step: 8
-            },
-            {
-                element: document.getElementById('intro9'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">En este espacio se indicará el período de inicio y fin de tu etapa productiva. <br> <audio autoplay class="audio-intro" controls><source src="audios/paso8.m4a" type="audio/mpeg"></audio></div>', step: 9
-            },
-            {
-                element: document.getElementById('intro10'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aqui va el lugar donde desarrollaste la actividad planteanda <br> <audio autoplay class="audio-intro" controls><source src="audios/paso9.m4a" type="audio/mpeg"></audio></div>', step: 10
-            },
+            
             {
                 element: document.getElementById('intro11'),
                 intro: '<div class="btn bg-white mb-0 subtitulos">Deben de llavar nombres y firmas de los actores del procedimiento <br> <audio autoplay class="audio-intro" controls><source src="audios/paso10.m4a" type="audio/mpeg"></audio></div>', step: 11
@@ -89,18 +74,13 @@ function intro_calcular() {
                 intro: '<div class="btn bg-white mb-0 subtitulos">No te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="audio-intro" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio></div>', step: 13
             },
             {
-                element: document.getElementById('intro21'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Si la evidencia que planeas presentar se compone de fotografías, se debe situarla al final del documento  <br> <audio autoplay class="audio-intro" controls><source src="audios/f023-02/evidencias.m4a" type="audio/mpeg"></audio></div>', step: 13
-            },
-              {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡ÉXITO!</h5></strong> Te deseamos mucho éxito en tu proceso de etapa productiva y certificación<br> <br><audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/robot (1).gif" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar el formato de seguimiento, te invito a que revises a el formato de evaluación final<br> <br><audio autoplay class="audio-intro" controls><source src="audios/f023-02/finformato.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
                 y: 0, // Coordenada Y
             },
-
         ]
     });
     intro.start();

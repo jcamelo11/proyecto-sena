@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4>Informe F023 concertación</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/concertacion.m4a" type="audio/mpeg"></audio></div>',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 planeación (concertación)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/planeacion.m4a" type="audio/mpeg"></audio></div>',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -66,7 +66,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡ÉXITO!</h5></strong> Te deseamos mucho éxito en tu proceso de etapa productiva y certificación<br> <br><audio autoplay class="audio-intro" controls><source src="audios/paso12.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar el formato de planeacion, te invito a que revises a el formato de seguimiento<br> <br><audio autoplay class="audio-intro" controls><source src="audios/finplaneacion.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
