@@ -1,5 +1,5 @@
 function intro_calcular() {
-    ocultarImagen()
+   
     var intro = introJs();
     intro.setOptions({
         steps: [
@@ -90,4 +90,5 @@ function intro_calcular() {
 //    font-size: 16px; /* Tamaño de fuente personalizado */
 //    /* Otros estilos personalizados, como el fondo, el color de texto, el margen, etc. */
 //}
+
 intro_calcular()

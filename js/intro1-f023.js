@@ -1,5 +1,5 @@
 function intro_calcular() {
-    ocultarImagen()
+    
     var intro = introJs();
     intro.setOptions({
         steps: [
@@ -66,7 +66,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar el formato de planeacion, te invito a que revises a el formato de seguimiento<br> <br><audio autoplay class="audio-intro" controls><source src="audios/finplaneacion.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar la planeación de tu etapa productiva. Te invito a que revises este mismo formato en la fase de seguimiento<br> <br><audio autoplay class="audio-intro" controls><source src="audios/finplaneacion.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -84,3 +84,5 @@ function intro_calcular() {
 //    font-size: 16px; /* Tamaño de fuente personalizado */
 //    /* Otros estilos personalizados, como el fondo, el color de texto, el margen, etc. */
 //}
+
+intro_calcular()

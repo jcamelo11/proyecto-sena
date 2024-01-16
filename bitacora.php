@@ -117,17 +117,17 @@ https://www.tooplate.com/view/2115-marvel
           <span class="material-symbols-outlined text-white">undo </span><h4 class="float-right mt-1" style="font-size: 13px;">Volver</h4></div>
       </a>
 
-      <!-- ⭐⭐ - sug_click - ⭐⭐  -->
+      <!-- ⭐⭐ - sug_click - ⭐⭐ 
       <div id="mensaje_click" style="bottom: -64px; left: 120px;position: fixed;transform: translate(-50%, -50%);z-index: 9999;" >
         <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
         
         </div>
-      <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
+      ⭐⭐ - / sug_click - ⭐⭐  -->
 
       
-      <div id="popup" class="" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> 
+      <!-- <div id="popup" class="" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> -->
 
-      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
+      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>  
 
       <div class="mt-5">
 
@@ -178,6 +178,8 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/introweb.js"></script>
     <script  src="js/config.js"></script>
     <script>
+      intro_calcular()
+      
       function mostrarImagen() {
         document.getElementById('mensaje_click').style.display = 'block';
       }

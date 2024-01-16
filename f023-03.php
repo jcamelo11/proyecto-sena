@@ -102,22 +102,23 @@
       </a>
 
       <!-- ⭐⭐ - sug_click - ⭐⭐  -->
-      <div id="mensaje_click" style="bottom: -64px; left: 120px;position: fixed;transform: translate(-50%, -50%);z-index: 9999;" >
+      <!-- <div id="mensaje_click" style="bottom: -64px; left: 120px;position: fixed;transform: translate(-50%, -50%);z-index: 9999;" >
         <img src="imagenes/undraw/click-mouse.gif" alt="Imagen" width="80px" style="rotate: -55deg;">
         
-        </div>
+        </div> -->
         <!-- ⭐⭐ - / sug_click - ⭐⭐  -->
 
       
-        <div id="popup" class="bg-white" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> 
-      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button>
+        <!-- <div id="popup" class="bg-white" style="position: fixed; bottom: 70px; left: 40px; z-index: 9999;"><img src="imagenes/undraw/letrero.png" width="80px" alt=""></div> -->
+
+      <button class="btn bg-success pt-0 btn-xxl" data-bs-toggle="tooltip" data-bs-placement="left"  aria-label="Instrucciones de uso" data-bs-original-title="Iniciar recorrido" style="position: fixed; width: 60px; height: 60px; bottom: 10px; left: 10px; border: 2px solid white; border-radius: 50%; z-index: 9999;" onclick="intro_calcular()" ><i class="fas fa-play mt-2 pt-1 text-white mx-auto" aria-hidden="true"></i></button> 
 
 
       <div class="mt-5">
 
         <!-- hoja 1 -->
         <div class="card base">
-          <img src="imagenes/informes/EP-f023-01-1.png" alt="">
+          <img src="imagenes/informes/F023-01.png" alt="">
 
           <div id="intro1" class="pasos paso1" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Escriba su regional, el centro de formación al que pertenece, nombre del programa que cursa y su numero de ficha"></div>
           <div id="intro2" class="pasos paso2" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="información..."></div>
@@ -197,6 +198,8 @@
     <script  src="js/intro3-f023.js"></script>
     <script  src="js/config.js"></script>
     <script>
+      intro_calcular()
+
       function mostrarImagen() {
         document.getElementById('mensaje_click').style.display = 'block';
       }
