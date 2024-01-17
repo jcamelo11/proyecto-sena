@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/inicio.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -21,7 +21,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro1'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/centro.m4a" type="audio/mpeg"></audio></div>', step: 1
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí se describirán las actividades que llevarás a cabo durante tu período de etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/bitacoras/centro.m4a" type="audio/mpeg"></audio></div>', step: 1
             },
             {
                 element: document.getElementById('intro2'),

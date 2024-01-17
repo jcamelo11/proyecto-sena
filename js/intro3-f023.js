@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/inicio.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 evaluación (final)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-03/evaluacion.m4a" type="audio/mpeg"></audio>',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 evaluación (final)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-03/evaluacionf.m4a" type="audio/mpeg"></audio>',
                 step: 0,
                 position: 'bottom',
                 x: 100, // Coordenada X
@@ -104,6 +104,14 @@ function intro_calcular() {
 
             },
             {
+                element: document.getElementById('intro23'),
+                intro: ' <div class="btn bg-white mb-0 subtitulos">El juicio evaluado lo marcará tu instructor de seguimiento cuando hayas terminado tu etapa productiva <br> <audio autoplay class="audio-intro" controls><source src="audios/f023-03/juicioev.m4a" type="audio/mpeg"></audio></div>',step: 17,
+                position: 'bottom',
+                x: 100, // Coordenada X
+                y: 0, // Coordenada Y
+
+            },
+            {
                 element: document.getElementById('intro19'),
                 intro: ' <div class="btn bg-white mb-0 subtitulos">En este espacio también debe de llavar nombres y firmas de los actores del procedimiento  <br> <audio autoplay class="audio-intro" controls><source src="audios/paso10.m4a" type="audio/mpeg"></audio></div>',step: 17,
                 position: 'bottom',
@@ -111,6 +119,7 @@ function intro_calcular() {
                 y: 0, // Coordenada Y
 
             },
+          
             {
                 element: document.getElementById('intro20'),
                 intro: ' <div class="btn bg-white mb-0 subtitulos"> No te olvides de colocar la cuidad y ciudad de elaboracion del formato <br> <audio autoplay class="audio-intro" controls><source src="audios/paso11.m4a" type="audio/mpeg"></audio></div>', step: 18,

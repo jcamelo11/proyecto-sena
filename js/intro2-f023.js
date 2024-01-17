@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/inicio.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -13,7 +13,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 seguimiento (parcial)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-02/formato.m4a" type="audio/mpeg"></audio>',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><br><br><strong><h4 class="text-success">Formato F023 seguimiento (parcial)</h4></strong><br><audio autoplay class="audio-intro" style="display: none;" controls><source src="audios/f023-02/parcial.m4a" type="audio/mpeg"></audio>',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -75,7 +75,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar el formato de seguimiento, te invito a que revises a el formato de evaluación final<br> <br><audio autoplay class="audio-intro" controls><source src="audios/f023-02/finformato.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás terminado de diliginciar el formato de seguimiento, te invito a que revises a el formato de evaluación final<br> <br><audio autoplay class="audio-intro" controls><source src="audios/f023-02/finformato.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X

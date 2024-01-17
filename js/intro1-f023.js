@@ -5,7 +5,7 @@ function intro_calcular() {
         steps: [
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/intro.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos"><strong><h5>¡Hola!</h5></strong> Soy tu asistente Senabot<br> presiona siguiente para avanzar <br><audio autoplay class="audio-intro" controls><source src="audios/inicio.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
@@ -53,7 +53,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById('intro10'),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aqui va el lugar donde desarrollaste la actividad planteanda <br> <audio autoplay class="audio-intro" controls><source src="audios/paso9.m4a" type="audio/mpeg"></audio></div>', step: 10
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aqui va el lugar donde desarrollaste las activiadades concertadas <br> <audio autoplay class="audio-intro" controls><source src="audios/paso9.m4a" type="audio/mpeg"></audio></div>', step: 10
             },
             {
                 element: document.getElementById('intro11'),
@@ -66,7 +66,7 @@ function intro_calcular() {
             },
             {
                 element: document.getElementById(''),
-                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás termidado de diliginciar la planeación de tu etapa productiva. Te invito a que revises este mismo formato en la fase de seguimiento<br> <br><audio autoplay class="audio-intro" controls><source src="audios/finplaneacion.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
+                intro: '<div class="btn bg-white mb-0 subtitulos">Aquí ya habrás terminado de diliginciar la planeación de tu etapa productiva. Te invito a que revises este mismo formato en la fase de seguimiento<br> <br><audio autoplay class="audio-intro" controls><source src="audios/finplaneacion.m4a" type="audio/mpeg"></audio></div><img src="imagenes/undraw/senabot.png" width="280px" alt="">',
                 step: 0,
                 position: 'right',
                 x: 100, // Coordenada X
