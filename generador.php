@@ -37,7 +37,7 @@
     <div class="row mx-auto">
     <div class="col-lg-5 mx-auto my-auto">
           <div class="about-image">
-              <img src="imagenes/undraw/periodo.svg" class="img-fluid" alt="svg image">
+              <img src="imagenes/undraw/periodos.svg" class="img-fluid" alt="svg image">
           </div>
       </div>
       <div class="col-lg-5 mx-auto my-auto">

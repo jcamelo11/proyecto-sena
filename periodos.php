@@ -247,8 +247,8 @@
             <div class="col-md-6 pb-4 mx-auto">
             <h3 class="text-start font-weight-bold">Guías interactivas</h3>
                 <div class="mx-auto">
-                    <a href="menu-formatos.php" Target="_blank"> <img src="imagenes/project/informes.png" class="sombra mt-1" alt="Editado por heyder canchila" style="width: 475px;" ></a>
-                    <a href="req-certificacion.php" Target="_blank"> <img src="imagenes/project/requisitos.png" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="menu-formatos.php" Target="_blank"> <img src="imagenes/project/informes.jpg" class="sombra mt-1" alt="Editado por heyder canchila" style="width: 475px;" ></a>
+                    <a href="req-certificacion.php" Target="_blank"> <img src="imagenes/project/requisitos.jpg" class="sombra mt-4" alt="Editado por heyder canchila" style="width: 475px;" ></a>
                 </div>
                 <table class="mx-auto border border-gray mt-5">
                          

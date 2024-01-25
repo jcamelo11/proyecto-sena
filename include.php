@@ -2,7 +2,7 @@
     <!-- MENU -->
 <nav class="navbar navbar-expand-sm navbar-light">
   <div class="container">
-      <a href="index.php"><img class="logosena" src="imagenes/logo/logosena.png" alt="" ></a>
+      <a href="index.php"><img class="logosena" src="imagenes/logo/logo.png" alt="" ></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
           aria-label="Toggle navigation">

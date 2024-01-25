@@ -57,7 +57,7 @@ include "include.php"
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="imagenes/undraw/inicio3.svg" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/homee.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
@@ -80,25 +80,25 @@ include "include.php"
                       
                         <div class="item">
                           <div class="project-info">
-                            <a href="menu-formatos.php"><img src="imagenes/project/informes.png" class="img-fluid" alt="project image"></a>
+                            <a href="menu-formatos.php"><img src="imagenes/project/informes.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <a href="descargas.php"><img src="imagenes/project/descargar.png" class="img-fluid" alt="project image"></a>
+                            <a href="descargas.php"><img src="imagenes/project/descargar.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <a href="generador.php"><img href="generador.php" src="imagenes/project/periodo.png" class="img-fluid" alt="project image"></a>
+                            <a href="generador.php"><img href="generador.php" src="imagenes/project/periodo.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
-                            <a href="req-certificacion.php"><img src="imagenes/project/requisitos.png" class="img-fluid" alt="project image"></a>
+                            <a href="req-certificacion.php"><img src="imagenes/project/requisitos.jpg" class="img-fluid" alt="project image"></a>
                           </div>
                         </div>
 
@@ -172,7 +172,7 @@ include "include.php"
 
                 <div class="col-lg-5 col-md-12 mx-auto my-auto col-12">
                     <div class="about-image  svg">
-                        <img src="imagenes/undraw/cuate.svg" class="img-fluid" alt="svg image">
+                        <img src="imagenes/undraw/cuate1.svg" class="img-fluid" alt="svg image">
                     </div>
                 </div>
 
