@@ -215,7 +215,7 @@ include "include.php"
               <h2 class="mb-4">¿Tienes dudas?</h2>
               <p>Este espacio fue diseñado solo para solicitar apoyo relacionado con el tema de informes, asegurese de haber explorado previamente el sitio web, o recurre a la oficina de coordinación académica de tu centro. </p>
               <div class="ml-lg-auto text-center col-lg-5 col-12">
-                <a href="https://forms.gle/BTMF7Thxe9CTFpnL6" class="btn mr-lg-2 custom-btn bg-success  text-white"  data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank" ></i>Contáctanos</a>
+                <a href="https://forms.office.com/r/updHnZx4Uh" class="btn mr-lg-2 custom-btn bg-success  text-white"  data-toggle="tooltip" data-placement="left" title="Youtube" target="_blank" ></i>Contáctanos</a>
               </div>
 
               <img src="imagenes/undraw/ask1.svg" class="img-fluid mt-3" alt="svg image">
