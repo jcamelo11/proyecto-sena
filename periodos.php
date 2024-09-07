@@ -287,7 +287,7 @@
         </div>
     </div>
 
-    <p class="mt-5 mb-3 text-muted">&copy; Versión 2.0</p> 
+    <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián & Jhonatan <br> &copy; Versión 2.0</p> 
     <!-- script -->
     <script type="application/javascript">
         $(document).ready( function () {

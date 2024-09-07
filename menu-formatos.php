@@ -212,16 +212,9 @@ include "include.php"
         </div>
     </section>
     
-    <p class="mt-5 mb-3 text-center text-muted">&copy; Versión 2.0</p> 
+    <p class="mt-5 mb-3 text-center text-muted">Created ❤️ By Sebastián & Jhonatan <br> &copy; Versión 2.0</p> 
     
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
-               
-               </div>
-          </div>
-     </footer>
+    
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
